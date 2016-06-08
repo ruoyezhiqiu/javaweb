@@ -2,28 +2,28 @@
 <section name="Workbench">
 	<section name="JavaElementSearchActions">
 	</section>
-	<section name="NewJspCreationWizardPage">
-		<item key="templateen_CN" value="Default JSP template"/>
-		<item key="filePath" value="/day05/WebRoot/loginout"/>
-	</section>
 	<section name="BuildPathsPropertyPage">
 		<item key="pageIndex" value="2"/>
 	</section>
-	<section name="RefactoringWizard.preview">
-		<item key="width" value="600"/>
-		<item key="height" value="400"/>
+	<section name="NewJspCreationWizardPage">
+		<item key="templateen_CN" value="Default JSP template"/>
+		<item key="filePath" value="/day06/WebRoot/error"/>
 	</section>
 	<section name="NewServletCreationWizardPage">
 		<item key="create_main" value="true"/>
 		<item key="create_doput" value="false"/>
-		<item key="create_dopost" value="true"/>
 		<item key="create_dodelete" value="false"/>
-		<item key="create_doget" value="true"/>
+		<item key="create_dopost" value="true"/>
 		<item key="create_servletinfo" value="false"/>
+		<item key="create_doget" value="true"/>
 		<item key="template" value="1] Default template for Servlet"/>
-		<item key="create_unimplemented" value="false"/>
 		<item key="create_doinitdestroy" value="false"/>
+		<item key="create_unimplemented" value="false"/>
 		<item key="create_constructor" value="false"/>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item key="width" value="600"/>
+		<item key="height" value="400"/>
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item key="updateSimilarElementsMatchStrategy" value="1"/>
@@ -44,14 +44,14 @@
 		<item key="layout" value="2"/>
 		<item key="group_libraries" value="true"/>
 	</section>
-	<section name="OptionalMessageDialog.hide.">
-		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
-	</section>
 	<section name="NewWebXmlLinkCreationWizardPage">
 		<item key="do_mapping" value="true"/>
 		<item key="display_name" value=""/>
 		<item key="description" value=""/>
 		<item key="filePath" value="/day05/WebRoot/WEB-INF"/>
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>

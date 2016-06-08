@@ -2,13 +2,13 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
-			<item value="day04"/>
+			<item value="day06"/>
+		</list>
+		<list key="artifactId">
+			<item value="day06"/>
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
-		</list>
-		<list key="artifactId">
-			<item value="day04"/>
 		</list>
 	</section>
 </section>

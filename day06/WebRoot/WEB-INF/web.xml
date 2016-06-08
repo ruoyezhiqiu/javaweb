@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<error-page>
+	<!-- 以下代码设置页面的响应码若为500跳转到error文件夹下的500.jsp页面 -->
+	<error-code>500</error-code>
+	<location>/error/500.jsp</location>
+	</error-page>
+	<error-page>
+	<!-- 以下代码设置页面的响应码若为404跳转到error文件夹下的404.jsp页面 -->
+	<error-code>404</error-code>
+	<location>/error/404.jsp</location>
+	</error-page>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
