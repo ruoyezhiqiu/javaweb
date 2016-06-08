@@ -43,11 +43,6 @@
     <servlet-name>LogoutServlet</servlet-name>
     <servlet-class>com.wushengde.session.loginout.LogoutServlet</servlet-class>
   </servlet>
-  <servlet>
-    <servlet-name>ResubServlet</servlet-name>
-    <servlet-class>com.wushengde.session.resubmit.ResubServlet</servlet-class>
-  </servlet>
-
 
 
 
@@ -92,10 +87,6 @@
   <servlet-mapping>
     <servlet-name>LogoutServlet</servlet-name>
     <url-pattern>/servlet/LogoutServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>ResubServlet</servlet-name>
-    <url-pattern>/servlet/ResubServlet</url-pattern>
   </servlet-mapping>
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>

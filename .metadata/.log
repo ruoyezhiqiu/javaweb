@@ -503,3 +503,27 @@ org.eclipse.core.runtime.AssertionFailedException: assertion failed:
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-08 18:19:21.644
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-08 18:19:21.864
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-08 18:19:21.865
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-08 18:20:34.111
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-08 18:22:25.093
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-08 18:26:47.593
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-08 18:29:18.345
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-08 18:29:19.093
+!MESSAGE Unable to synchronize source selection.
