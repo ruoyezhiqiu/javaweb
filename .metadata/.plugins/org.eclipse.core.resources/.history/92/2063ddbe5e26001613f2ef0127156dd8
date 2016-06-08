@@ -1,0 +1,43 @@
+package com.wushengde.response;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * 下载图片视频等将图片发送到浏览器
+ * 
+ * @author john
+ * 
+ */
+public class DownServlet extends HttpServlet {
+
+	public void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		// 这一句实现下载功能，其中可以下载图片视频等等文件。
+		response.setHeader("Content-Disposition","attachment;filename=images/a.jpg");
+
+	/*	InputStream in = new FileInputStream(this.getServletContext().getRealPath("images/a.jpg"));
+		OutputStream out = response.getOutputStream();
+
+		byte[] bs = new byte[1024];
+		int i = 0;
+		while ((i = in.read(bs)) != -1) {
+			out.write(bs, 0, i);
+		}
+		in.close();*/
+
+	}
+
+	public void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+	}
+
+}

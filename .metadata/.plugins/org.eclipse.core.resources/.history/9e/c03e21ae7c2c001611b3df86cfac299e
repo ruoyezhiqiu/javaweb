@@ -1,0 +1,16 @@
+package com.wushengde.jsp;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+import com.wushengde.domain.Book;
+
+public class BookDao {
+	private static Map<String,Book> bookMap = new LinkedHashMap<String, Book>();
+	private BookDao(){
+		
+	}
+	static{
+		bookMap.put("1",new Book("1","三国演义","99","吴升德",""));
+	}
+}

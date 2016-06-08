@@ -1,0 +1,7 @@
+package com.wushengde.session.loginout;
+
+import java.io.Serializable;
+
+public class UserDao implements Serializable {
+
+}

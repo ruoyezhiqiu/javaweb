@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>CustinfoServlet</servlet-name>
+    <servlet-class>com.wushengde.request.CustinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HeaderServlet</servlet-name>
+    <servlet-class>com.wushengde.request.HeaderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FengJieServlet</servlet-name>
+    <servlet-class>com.wushengde.request.FengJieServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>URLServlet</servlet-name>
+    <servlet-class>com.wushengde.request.URLServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ParamServlet</servlet-name>
+    <servlet-class>com.wushengde.request.ParamServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo3</servlet-name>
+    <servlet-class>com.wushengde.request.Demo3</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo4</servlet-name>
+    <servlet-class>com.wushengde.request.Demo4</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>CustinfoServlet</servlet-name>
+    <url-pattern>/servlet/CustinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HeaderServlet</servlet-name>
+    <url-pattern>/servlet/HeaderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FengJieServlet</servlet-name>
+    <url-pattern>/servlet/FengJieServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>URLServlet</servlet-name>
+    <url-pattern>/servlet/URLServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ParamServlet</servlet-name>
+    <url-pattern>/servlet/ParamServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo3</servlet-name>
+    <url-pattern>/servlet/Demo3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo4</servlet-name>
+    <url-pattern>/servlet/Demo4</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

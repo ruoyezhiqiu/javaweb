@@ -1,0 +1,14 @@
+package com.wushengde;
+
+import org.junit.Test;
+
+public class Person {
+	@Test
+	public void eat(){
+		System.out.println("郭、、、、、");
+	}
+	@Test
+	public void run(){
+		System.out.println("怒、、、、、");
+	}
+}

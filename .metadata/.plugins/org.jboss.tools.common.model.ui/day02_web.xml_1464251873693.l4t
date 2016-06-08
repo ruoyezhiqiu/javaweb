@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout resource="/day02/WebRoot/WEB-INF/web.xml">
+ <TreeFormPage>
+  <Memento type="FileWebApp25">
+   <Memento collapsed="false" type="Web Descriptor 2.5"/>
+   <Memento collapsed="false" type="Context Params"/>
+   <Memento collapsed="false" type="Advanced"/>
+  </Memento>
+  <Memento type="WebAppFolderFilters24">
+   <Memento collapsed="false" type="Filters"/>
+   <Memento collapsed="false" type="Filter Mappings"/>
+  </Memento>
+  <Memento type="WebAppFolderContextParams">
+   <Memento type="Context Params"/>
+  </Memento>
+ </TreeFormPage>
+</Layout>

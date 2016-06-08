@@ -1,0 +1,30 @@
+package com.wushengde.response;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class OutServlet extends HttpServlet {
+
+	public void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		// 向浏览器输出中国两个字，并且设置其编码解码的编码类型：
+		// response.setHeader("Content-Type", "text/html; charset=utf-8");
+		// response.getOutputStream().write("中国".getBytes("utf-8"));
+		// response.setCharacterEncoding("gbk");
+
+		// 此行代码将解决所有服务器浏览器编码问题，统一规定了服务器浏览器编码解码类型：utf-8;
+		//response.setContentType("text/html;charset=utf-8");
+		response.getWriter().write("北京");
+
+	}
+
+	public void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+	}
+
+}

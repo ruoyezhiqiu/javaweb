@@ -1,0 +1,9 @@
+package com.wushengde.session.loginout;
+
+import java.util.HashMap;
+
+public class UserDao {
+	private UserDao(){}
+	private	Map<String,String> map = new HashMap<String, String>();
+
+}

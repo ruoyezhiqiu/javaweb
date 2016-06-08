@@ -1,0 +1,42 @@
+package com.wushengde.jsp;
+
+import java.io.IOException;
+import java.util.Map;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.wushengde.domain.Book;
+
+public class BookListServlet extends HttpServlet {
+
+	public void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		response.setContentType("text/html;charset=utf-8");
+		// 1.查询数据库（此处是一个BookDao类）中所有的书：
+		Map<String, Book> map = BookDao.getBooks();
+		for (Map.Entry<String,Book> entry:map.entrySet()) {
+			Book book = entry.getValue();
+			response.getWriter().write("<a href=' "+request.getContextPath()+"/servlet/BookInfoServlet?id="+book.getId()+"'>"+book.getName()+"</a><br>");
+		}
+		response.getWriter().write("<hr>");
+		// 2.显示看过的书：
+		response.getWriter().write("您在本网站最后看的一本书是：<br>");
+		Cookie[] cs = request.getCookies();
+		Cookie findC = null;
+		for(Cookie c:cs){
+			if("last".equals(c.getName())){
+				dindC
+			}
+		}
+	}
+
+	public void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+	}
+
+}

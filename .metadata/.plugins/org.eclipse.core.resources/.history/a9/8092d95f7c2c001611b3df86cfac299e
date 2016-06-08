@@ -1,0 +1,60 @@
+package com.wushengde.domain;
+
+import java.io.Serializable;
+
+/*
+ * java bean 的使用：建议实现接口：Serializable
+ */
+public class Book implements Serializable{
+	private String id;
+	private String name;
+	private String price;
+	private String author;
+	private String publish;
+	
+	
+	public Book() {
+		super();
+	}
+	
+	public Book(String id, String name, String price, String author,
+			String publish) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.price = price;
+		this.author = author;
+		this.publish = publish;
+	}
+
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getPrice() {
+		return price;
+	}
+	public void setPrice(String price) {
+		this.price = price;
+	}
+	public String getAuthor() {
+		return author;
+	}
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+	public String getPublish() {
+		return publish;
+	}
+	public void setPublish(String publish) {
+		this.publish = publish;
+	}
+}

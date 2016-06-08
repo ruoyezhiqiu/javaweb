@@ -1,0 +1,14 @@
+package com.wushengde.session.loginout;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class UserDao {
+	private UserDao(){}
+	private static	Map<String,String> map = new HashMap<String, String>();
+	static{
+		map.put("ÕÅÈı·á","123456");
+		map.put
+	}
+
+}

@@ -1,0 +1,505 @@
+!SESSION 2016-06-08 16:41:54.810 -----------------------------------------------
+eclipse.buildId=M20080221-1800
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+This is a continuation of log file D:\code\2016\myeclipse\.metadata\.bak_0.log
+Created Time: 2016-06-08 16:42:31.793
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.793
+!MESSAGE NLS unused message: wizard.import.page.deselectAll in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.794
+!MESSAGE NLS unused message: wizard.import.page.projects in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.794
+!MESSAGE NLS unused message: wizard.import.page.refresh in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.794
+!MESSAGE NLS unused message: wizard.import.page.root in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.795
+!MESSAGE NLS unused message: wizard.import.page.scanningErrors in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.795
+!MESSAGE NLS unused message: wizard.import.page.selectAll in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.796
+!MESSAGE NLS unused message: wizard.import.page.selectRootFolder in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.796
+!MESSAGE NLS unused message: wizard.import.validator.projectExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.797
+!MESSAGE NLS unused message: wizard.import.validator.workspaceFolder in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.797
+!MESSAGE NLS unused message: wizard.module.page.archetype.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.797
+!MESSAGE NLS unused message: wizard.module.page.artifact.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.798
+!MESSAGE NLS unused message: wizard.module.page.parameters.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.798
+!MESSAGE NLS unused message: wizard.module.page.parent.browse in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.798
+!MESSAGE NLS unused message: wizard.module.page.parent.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.799
+!MESSAGE NLS unused message: wizard.module.page.parent.moduleName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.799
+!MESSAGE NLS unused message: wizard.module.page.parent.parentProject in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.799
+!MESSAGE NLS unused message: wizard.module.page.parent.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.799
+!MESSAGE NLS unused message: wizard.module.page.parent.validator.moduleName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.800
+!MESSAGE NLS unused message: wizard.module.page.parent.validator.nameExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.800
+!MESSAGE NLS unused message: wizard.module.page.parent.validator.parentProject in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.800
+!MESSAGE NLS unused message: wizard.module.page.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.801
+!MESSAGE NLS unused message: wizard.module.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.801
+!MESSAGE NLS unused message: wizard.project.error.pomAlreadyExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.801
+!MESSAGE NLS unused message: wizard.project.error.pomExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.801
+!MESSAGE NLS unused message: wizard.project.job.creating in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.802
+!MESSAGE NLS unused message: wizard.project.job.creatingProject in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.802
+!MESSAGE NLS unused message: wizard.project.job.failed in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.802
+!MESSAGE NLS unused message: wizard.project.page.archetype.archetypes in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.803
+!MESSAGE NLS unused message: wizard.project.page.archetype.column.artifactId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.803
+!MESSAGE NLS unused message: wizard.project.page.archetype.column.groupId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.803
+!MESSAGE NLS unused message: wizard.project.page.archetype.column.version in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.804
+!MESSAGE NLS unused message: wizard.project.page.archetype.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.804
+!MESSAGE NLS unused message: wizard.project.page.archetype.details in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.804
+!MESSAGE NLS unused message: wizard.project.page.archetype.details.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.804
+!MESSAGE NLS unused message: wizard.project.page.archetype.details.repository in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.805
+!MESSAGE NLS unused message: wizard.project.page.archetype.retrievingArchetypes in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.805
+!MESSAGE NLS unused message: wizard.project.page.archetype.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.806
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.artifactId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.806
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.browse in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.806
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.clear in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.806
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.groupId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.807
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.807
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.version in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.807
+!MESSAGE NLS unused message: wizard.project.page.dependencies.add in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.807
+!MESSAGE NLS unused message: wizard.project.page.dependencies.dependencies in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.808
+!MESSAGE NLS unused message: wizard.project.page.dependencies.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.808
+!MESSAGE NLS unused message: wizard.project.page.dependencies.remove in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.808
+!MESSAGE NLS unused message: wizard.project.page.dependencies.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.808
+!MESSAGE NLS unused message: wizard.project.page.maven2.archetype.parameters.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.809
+!MESSAGE NLS unused message: wizard.project.page.maven2.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.809
+!MESSAGE NLS unused message: wizard.project.page.maven2.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.809
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.artifactID in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.809
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.groupID in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.810
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.packaging in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.810
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.parent in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.810
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.requiredProperty in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.811
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.version in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.811
+!MESSAGE NLS unused message: wizard.project.page.project.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.811
+!MESSAGE NLS unused message: wizard.project.page.project.projectName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.811
+!MESSAGE NLS unused message: wizard.project.page.project.simpleProject in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.812
+!MESSAGE NLS unused message: wizard.project.page.project.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.812
+!MESSAGE NLS unused message: wizard.project.page.project.validator.invalidLocation in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.812
+!MESSAGE NLS unused message: wizard.project.page.project.validator.projectExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.813
+!MESSAGE NLS unused message: wizard.project.page.project.validator.projectLocation in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.813
+!MESSAGE NLS unused message: wizard.project.page.project.validator.projectName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-08 16:42:31.813
+!MESSAGE NLS unused message: wizard.project.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.maven.ide.eclipse 4 0 2016-06-08 16:42:38.512
+!MESSAGE Unable to update index for central http://repo1.maven.org/maven2/
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error updating index
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.fetchAndUpdateIndex(NexusIndexManager.java:501)
+	at org.maven.ide.eclipse.index.IndexManager$UpdateCommand.run(IndexManager.java:417)
+	at org.maven.ide.eclipse.index.IndexManager$IndexUpdaterJob.run(IndexManager.java:534)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+org.eclipse.core.runtime.CoreException[-1]: java.io.IOException: Resource nexus-maven-repository-index.zip does not exist
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadResource(DefaultIndexUpdater.java:243)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$1.invoke(DefaultIndexUpdater.java:87)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.run(DefaultIndexUpdater.java:169)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:63)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.fetchAndUpdateIndex(NexusIndexManager.java:491)
+	at org.maven.ide.eclipse.index.IndexManager$UpdateCommand.run(IndexManager.java:417)
+	at org.maven.ide.eclipse.index.IndexManager$IndexUpdaterJob.run(IndexManager.java:534)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.maven.ide.eclipse 4 -1 2016-06-08 16:42:38.513
+!MESSAGE Error updating index
+!STACK 0
+java.io.IOException: Resource nexus-maven-repository-index.zip does not exist
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadResource(DefaultIndexUpdater.java:243)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$1.invoke(DefaultIndexUpdater.java:87)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.run(DefaultIndexUpdater.java:169)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:63)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.fetchAndUpdateIndex(NexusIndexManager.java:491)
+	at org.maven.ide.eclipse.index.IndexManager$UpdateCommand.run(IndexManager.java:417)
+	at org.maven.ide.eclipse.index.IndexManager$IndexUpdaterJob.run(IndexManager.java:534)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.update.core 4 0 2016-06-08 16:55:05.784
+!MESSAGE UpdateManagerUtils copy() at offset:362674 [Connection reset]
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at sun.net.www.MeteredStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.update.internal.core.connection.HttpResponse$MonitoringInputStream.read(HttpResponse.java:92)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.update.internal.core.connection.HttpResponse$MonitoringInputStream.read(HttpResponse.java:83)
+	at org.eclipse.update.internal.core.UpdateManagerUtils.copy(UpdateManagerUtils.java:936)
+	at org.eclipse.update.core.FeatureContentProvider.asLocalReference(FeatureContentProvider.java:292)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.retrieveLocalJar(FeaturePackagedContentProvider.java:191)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.getPluginEntryArchiveReferences(FeaturePackagedContentProvider.java:179)
+	at org.eclipse.update.core.Feature.install(Feature.java:375)
+	at org.eclipse.update.internal.core.SiteFile.install(SiteFile.java:96)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:155)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:119)
+	at org.eclipse.update.internal.operations.InstallOperation.execute(InstallOperation.java:92)
+	at org.eclipse.update.internal.operations.BatchInstallOperation.execute(BatchInstallOperation.java:84)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.performSetup(QuickSetupService.java:754)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.run(QuickSetupService.java:779)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.tikal.eclipse.updatemanager.quicksetup 4 4 2016-06-08 16:55:06.621
+!MESSAGE 
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.update.internal.operations.BatchInstallOperation.execute(BatchInstallOperation.java:114)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.performSetup(QuickSetupService.java:754)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.run(QuickSetupService.java:779)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.update.internal.core.FeatureDownloadException: An exception occured while downloading feature from "http://downloads.myeclipseide.com/downloads/products/eworkbench/discovery-6.5/features/com.genuitec.myeclipse.reports_6.6.0.zmyeclipse660200810.jar".
+	at org.eclipse.update.core.FeatureContentProvider.asLocalReference(FeatureContentProvider.java:303)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.retrieveLocalJar(FeaturePackagedContentProvider.java:191)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.getPluginEntryArchiveReferences(FeaturePackagedContentProvider.java:179)
+	at org.eclipse.update.core.Feature.install(Feature.java:375)
+	at org.eclipse.update.internal.core.SiteFile.install(SiteFile.java:96)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:155)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:119)
+	at org.eclipse.update.internal.operations.InstallOperation.execute(InstallOperation.java:92)
+	at org.eclipse.update.internal.operations.BatchInstallOperation.execute(BatchInstallOperation.java:84)
+	... 3 more
+Root exception:
+org.eclipse.update.internal.core.FeatureDownloadException: An exception occured while downloading feature from "http://downloads.myeclipseide.com/downloads/products/eworkbench/discovery-6.5/features/com.genuitec.myeclipse.reports_6.6.0.zmyeclipse660200810.jar".
+	at org.eclipse.update.core.FeatureContentProvider.asLocalReference(FeatureContentProvider.java:303)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.retrieveLocalJar(FeaturePackagedContentProvider.java:191)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.getPluginEntryArchiveReferences(FeaturePackagedContentProvider.java:179)
+	at org.eclipse.update.core.Feature.install(Feature.java:375)
+	at org.eclipse.update.internal.core.SiteFile.install(SiteFile.java:96)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:155)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:119)
+	at org.eclipse.update.internal.operations.InstallOperation.execute(InstallOperation.java:92)
+	at org.eclipse.update.internal.operations.BatchInstallOperation.execute(BatchInstallOperation.java:84)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.performSetup(QuickSetupService.java:754)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.run(QuickSetupService.java:779)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+org.eclipse.update.internal.core.FeatureDownloadException[0]: java.io.IOException
+	at org.eclipse.update.core.FeatureContentProvider.asLocalReference(FeatureContentProvider.java:303)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.retrieveLocalJar(FeaturePackagedContentProvider.java:191)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.getPluginEntryArchiveReferences(FeaturePackagedContentProvider.java:179)
+	at org.eclipse.update.core.Feature.install(Feature.java:375)
+	at org.eclipse.update.internal.core.SiteFile.install(SiteFile.java:96)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:155)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:119)
+	at org.eclipse.update.internal.operations.InstallOperation.execute(InstallOperation.java:92)
+	at org.eclipse.update.internal.operations.BatchInstallOperation.execute(BatchInstallOperation.java:84)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.performSetup(QuickSetupService.java:754)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.run(QuickSetupService.java:779)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.tikal.eclipse.updatemanager.quicksetup 4 -1 2016-06-08 16:55:06.632
+!MESSAGE Error
+!STACK 1
+org.eclipse.update.internal.core.FeatureDownloadException: An exception occured while downloading feature from "http://downloads.myeclipseide.com/downloads/products/eworkbench/discovery-6.5/features/com.genuitec.myeclipse.reports_6.6.0.zmyeclipse660200810.jar".
+	at org.eclipse.update.core.FeatureContentProvider.asLocalReference(FeatureContentProvider.java:303)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.retrieveLocalJar(FeaturePackagedContentProvider.java:191)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.getPluginEntryArchiveReferences(FeaturePackagedContentProvider.java:179)
+	at org.eclipse.update.core.Feature.install(Feature.java:375)
+	at org.eclipse.update.internal.core.SiteFile.install(SiteFile.java:96)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:155)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:119)
+	at org.eclipse.update.internal.operations.InstallOperation.execute(InstallOperation.java:92)
+	at org.eclipse.update.internal.operations.BatchInstallOperation.execute(BatchInstallOperation.java:84)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.performSetup(QuickSetupService.java:754)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.run(QuickSetupService.java:779)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+org.eclipse.update.internal.core.FeatureDownloadException[0]: java.io.IOException
+	at org.eclipse.update.core.FeatureContentProvider.asLocalReference(FeatureContentProvider.java:303)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.retrieveLocalJar(FeaturePackagedContentProvider.java:191)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.getPluginEntryArchiveReferences(FeaturePackagedContentProvider.java:179)
+	at org.eclipse.update.core.Feature.install(Feature.java:375)
+	at org.eclipse.update.internal.core.SiteFile.install(SiteFile.java:96)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:155)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:119)
+	at org.eclipse.update.internal.operations.InstallOperation.execute(InstallOperation.java:92)
+	at org.eclipse.update.internal.operations.BatchInstallOperation.execute(BatchInstallOperation.java:84)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.performSetup(QuickSetupService.java:754)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.run(QuickSetupService.java:779)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.update.core 1 0 2016-06-08 16:55:06.632
+!MESSAGE An exception occured while downloading feature from "http://downloads.myeclipseide.com/downloads/products/eworkbench/discovery-6.5/features/com.genuitec.myeclipse.reports_6.6.0.zmyeclipse660200810.jar".
+!STACK 0
+java.io.IOException
+	at org.eclipse.update.core.FeatureContentProvider.asLocalReference(FeatureContentProvider.java:303)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.retrieveLocalJar(FeaturePackagedContentProvider.java:191)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.getPluginEntryArchiveReferences(FeaturePackagedContentProvider.java:179)
+	at org.eclipse.update.core.Feature.install(Feature.java:375)
+	at org.eclipse.update.internal.core.SiteFile.install(SiteFile.java:96)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:155)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:119)
+	at org.eclipse.update.internal.operations.InstallOperation.execute(InstallOperation.java:92)
+	at org.eclipse.update.internal.operations.BatchInstallOperation.execute(BatchInstallOperation.java:84)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.performSetup(QuickSetupService.java:754)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.run(QuickSetupService.java:779)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.internet.cache 1 0 2016-06-08 17:40:07.510
+!MESSAGE wtp.autotest.noninteractive is set. Licenses dialogs will not be displayed.
+
+!ENTRY org.eclipse.ui 4 0 2016-06-08 17:58:58.892
+!MESSAGE Warning: Blocked recursive attempt by part com.genuitec.eclipse.webdesigner3.editors.jsp to dispose itself during creation
+!STACK 1
+org.eclipse.ui.PartInitException: Warning: Blocked recursive attempt by part com.genuitec.eclipse.webdesigner3.editors.jsp to dispose itself during creation
+	at org.eclipse.ui.internal.WorkbenchPartReference.dispose(WorkbenchPartReference.java:655)
+	at org.eclipse.ui.internal.WorkbenchPage.disposePart(WorkbenchPage.java:1604)
+	at org.eclipse.ui.internal.WorkbenchPage.handleDeferredEvents(WorkbenchPage.java:1354)
+	at org.eclipse.ui.internal.WorkbenchPage.deferUpdates(WorkbenchPage.java:1338)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1312)
+	at org.eclipse.ui.internal.EditorStack.close(EditorStack.java:219)
+	at org.eclipse.ui.internal.PartStack$1.close(PartStack.java:122)
+	at org.eclipse.ui.internal.presentations.SystemMenuCloseAll.run(SystemMenuCloseAll.java:32)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:546)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:490)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:402)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:938)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3682)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3293)
+	at com.genuitec.eclipse.webdesigner3.design.MozillaEditor$EventLoop.run(MozillaEditor.java:1349)
+	at com.genuitec.eclipse.webdesigner3.design.MozillaEditor$EventLoop.access$0(MozillaEditor.java:1342)
+	at com.genuitec.eclipse.webdesigner3.design.MozillaEditor.loadURL(MozillaEditor.java:1324)
+	at com.genuitec.eclipse.webdesigner3.design.DesignEditSystem.setEditorDocumentRoot(DesignEditSystem.java:110)
+	at com.genuitec.eclipse.webdesigner3.design.DesignEditSystem.synchronize(DesignEditSystem.java:167)
+	at com.genuitec.eclipse.webdesigner3.AbstractEditSystem.setSynchronized(AbstractEditSystem.java:24)
+	at com.genuitec.eclipse.webdesigner3.WebDesigner3.setSynchronized(WebDesigner3.java:113)
+	at com.genuitec.eclipse.webdesigner3.editors.WebDesignerMultiPageEditor.checkSynchronization(WebDesignerMultiPageEditor.java:936)
+	at com.genuitec.eclipse.webdesigner3.editors.WebDesignerMultiPageEditor.access$6(WebDesignerMultiPageEditor.java:932)
+	at com.genuitec.eclipse.webdesigner3.editors.WebDesignerMultiPageEditor$10.run(WebDesignerMultiPageEditor.java:909)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at com.genuitec.eclipse.webdesigner3.editors.WebDesignerMultiPageEditor.designPageChange(WebDesignerMultiPageEditor.java:907)
+	at com.genuitec.eclipse.webdesigner3.editors.WebDesignerMultiPageEditor.pageChange(WebDesignerMultiPageEditor.java:881)
+	at org.eclipse.ui.part.MultiPageEditorPart.setActivePage(MultiPageEditorPart.java:697)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:287)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:661)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:426)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:592)
+	at org.eclipse.ui.internal.PartPane.setVisible(PartPane.java:299)
+	at org.eclipse.ui.internal.presentations.PresentablePart.setVisible(PresentablePart.java:179)
+	at org.eclipse.ui.internal.presentations.util.PresentablePartFolder.select(PresentablePartFolder.java:268)
+	at org.eclipse.ui.internal.presentations.util.LeftToRightTabOrder.select(LeftToRightTabOrder.java:65)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation.selectPart(TabbedStackPresentation.java:400)
+	at org.eclipse.ui.internal.PartStack.refreshPresentationSelection(PartStack.java:1256)
+	at org.eclipse.ui.internal.PartStack.setSelection(PartStack.java:1209)
+	at org.eclipse.ui.internal.PartStack.presentationSelectionChanged(PartStack.java:843)
+	at org.eclipse.ui.internal.PartStack.access$1(PartStack.java:829)
+	at org.eclipse.ui.internal.PartStack$1.selectPart(PartStack.java:139)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation$1.handleEvent(TabbedStackPresentation.java:131)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:267)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:276)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder.access$1(DefaultTabFolder.java:1)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder$2.handleEvent(DefaultTabFolder.java:84)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:938)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:962)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:947)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:706)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3227)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:2005)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:316)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:938)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3682)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3293)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+!SUBENTRY 1 org.eclipse.ui 4 0 2016-06-08 17:58:58.892
+!MESSAGE Warning: Blocked recursive attempt by part com.genuitec.eclipse.webdesigner3.editors.jsp to dispose itself during creation
+
+!ENTRY org.eclipse.ui 4 0 2016-06-08 17:58:59.138
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:109)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:95)
+	at org.eclipse.ui.internal.presentations.util.PresentablePartFolder.getTab(PresentablePartFolder.java:371)
+	at org.eclipse.ui.internal.presentations.util.PresentablePartFolder.select(PresentablePartFolder.java:277)
+	at org.eclipse.ui.internal.presentations.util.LeftToRightTabOrder.select(LeftToRightTabOrder.java:65)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation.selectPart(TabbedStackPresentation.java:400)
+	at org.eclipse.ui.internal.PartStack.refreshPresentationSelection(PartStack.java:1256)
+	at org.eclipse.ui.internal.PartStack.setSelection(PartStack.java:1209)
+	at org.eclipse.ui.internal.PartStack.presentationSelectionChanged(PartStack.java:843)
+	at org.eclipse.ui.internal.PartStack.access$1(PartStack.java:829)
+	at org.eclipse.ui.internal.PartStack$1.selectPart(PartStack.java:139)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation$1.handleEvent(TabbedStackPresentation.java:131)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:267)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:276)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder.access$1(DefaultTabFolder.java:1)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder$2.handleEvent(DefaultTabFolder.java:84)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:938)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:962)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:947)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:706)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3227)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:2005)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:316)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:938)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3682)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3293)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
