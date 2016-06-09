@@ -4,6 +4,15 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
 	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>head</servlet-name>
+    <servlet-class>head</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>head</servlet-name>
+    <url-pattern>/servlet/head</url-pattern>
+  </servlet-mapping>
 	<error-page>
 	<!-- 以下代码设置页面的响应码若为500跳转到error文件夹下的500.jsp页面 -->
 	<error-code>500</error-code>

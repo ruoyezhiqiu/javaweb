@@ -1,0 +1,15 @@
+<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+
+  </head>
+  
+  <body>
+   from 3.jsp......
+   <!--  <%request.getRequestDispatcher("/index.jsp").include(request,response); %>
+   <%@include file="/index.jsp" %>
+   -->
+   <%pageContext.include("/index.jsp"); %>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+
+  </head>
+  
+  <body>
+  <h1 style="text-align:center;">EL表达式作用</h1>
+  <h2>1.获取数据常量</h2><hr>
+  <p>获取常量的类型: 字符串/数字/布尔类型,直接写在el表达式中,el直接进行输出</p>
+   获取字符串：${"nice meet you ! john" }<br>
+   获取数字：${1234567890 }<br>
+   布尔类型：${true }
+   <h2>2.获取域中的变量</h2><hr>
+   <p>获取域中的变量:如果el中写的是一个变量的名,则el会调用pageContext的findAttribute方法,在四大作用域中以给定的名字找对应的属性值,找到后进行输出,如果四个域中都找不到,什么都不输出</p>
+  </body>
+</html>

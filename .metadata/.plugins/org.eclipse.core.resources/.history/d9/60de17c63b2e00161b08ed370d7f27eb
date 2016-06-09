@@ -1,0 +1,7 @@
+package com.wushengde.util;
+
+public class ELFunc {
+	public static String myEncode(String str,String encode){
+		
+	}
+}
