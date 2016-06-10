@@ -32,13 +32,13 @@
 	<section name="NewServletCreationWizardPage">
 		<item key="create_main" value="true"/>
 		<item key="create_doput" value="false"/>
-		<item key="create_dopost" value="true"/>
 		<item key="create_dodelete" value="false"/>
-		<item key="create_doget" value="true"/>
+		<item key="create_dopost" value="true"/>
 		<item key="create_servletinfo" value="false"/>
+		<item key="create_doget" value="true"/>
 		<item key="template" value="1] Default template for Servlet"/>
-		<item key="create_unimplemented" value="false"/>
 		<item key="create_doinitdestroy" value="false"/>
+		<item key="create_unimplemented" value="false"/>
 		<item key="create_constructor" value="false"/>
 	</section>
 	<section name="SourceActionDialog.methods">

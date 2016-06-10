@@ -7900,3 +7900,1063 @@ java.io.IOException: Resource nexus-maven-repository-index.zip does not exist
 	at org.maven.ide.eclipse.index.IndexManager$UpdateCommand.run(IndexManager.java:417)
 	at org.maven.ide.eclipse.index.IndexManager$IndexUpdaterJob.run(IndexManager.java:534)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.update.core 4 0 2016-06-10 16:59:34.107
+!MESSAGE UpdateManagerUtils copy() at offset:57284 [Connection reset]
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at sun.net.www.MeteredStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.update.internal.core.connection.HttpResponse$MonitoringInputStream.read(HttpResponse.java:92)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.update.internal.core.connection.HttpResponse$MonitoringInputStream.read(HttpResponse.java:83)
+	at org.eclipse.update.internal.core.UpdateManagerUtils.copy(UpdateManagerUtils.java:936)
+	at org.eclipse.update.core.FeatureContentProvider.asLocalReference(FeatureContentProvider.java:292)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.retrieveLocalJar(FeaturePackagedContentProvider.java:191)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.getPluginEntryArchiveReferences(FeaturePackagedContentProvider.java:179)
+	at org.eclipse.update.core.Feature.install(Feature.java:375)
+	at org.eclipse.update.internal.core.SiteFile.install(SiteFile.java:96)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:155)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:119)
+	at org.eclipse.update.internal.operations.InstallOperation.execute(InstallOperation.java:92)
+	at org.eclipse.update.internal.operations.BatchInstallOperation.execute(BatchInstallOperation.java:84)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.performSetup(QuickSetupService.java:754)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.run(QuickSetupService.java:779)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.tikal.eclipse.updatemanager.quicksetup 4 4 2016-06-10 16:59:35.334
+!MESSAGE 
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.update.internal.operations.BatchInstallOperation.execute(BatchInstallOperation.java:114)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.performSetup(QuickSetupService.java:754)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.run(QuickSetupService.java:779)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.update.internal.core.FeatureDownloadException: An exception occured while downloading feature from "http://downloads.myeclipseide.com/downloads/products/eworkbench/discovery-6.5/features/com.genuitec.myeclipse.reports_6.6.0.zmyeclipse660200810.jar".
+	at org.eclipse.update.core.FeatureContentProvider.asLocalReference(FeatureContentProvider.java:303)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.retrieveLocalJar(FeaturePackagedContentProvider.java:191)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.getPluginEntryArchiveReferences(FeaturePackagedContentProvider.java:179)
+	at org.eclipse.update.core.Feature.install(Feature.java:375)
+	at org.eclipse.update.internal.core.SiteFile.install(SiteFile.java:96)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:155)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:119)
+	at org.eclipse.update.internal.operations.InstallOperation.execute(InstallOperation.java:92)
+	at org.eclipse.update.internal.operations.BatchInstallOperation.execute(BatchInstallOperation.java:84)
+	... 3 more
+Root exception:
+org.eclipse.update.internal.core.FeatureDownloadException: An exception occured while downloading feature from "http://downloads.myeclipseide.com/downloads/products/eworkbench/discovery-6.5/features/com.genuitec.myeclipse.reports_6.6.0.zmyeclipse660200810.jar".
+	at org.eclipse.update.core.FeatureContentProvider.asLocalReference(FeatureContentProvider.java:303)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.retrieveLocalJar(FeaturePackagedContentProvider.java:191)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.getPluginEntryArchiveReferences(FeaturePackagedContentProvider.java:179)
+	at org.eclipse.update.core.Feature.install(Feature.java:375)
+	at org.eclipse.update.internal.core.SiteFile.install(SiteFile.java:96)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:155)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:119)
+	at org.eclipse.update.internal.operations.InstallOperation.execute(InstallOperation.java:92)
+	at org.eclipse.update.internal.operations.BatchInstallOperation.execute(BatchInstallOperation.java:84)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.performSetup(QuickSetupService.java:754)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.run(QuickSetupService.java:779)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+org.eclipse.update.internal.core.FeatureDownloadException[0]: java.io.IOException
+	at org.eclipse.update.core.FeatureContentProvider.asLocalReference(FeatureContentProvider.java:303)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.retrieveLocalJar(FeaturePackagedContentProvider.java:191)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.getPluginEntryArchiveReferences(FeaturePackagedContentProvider.java:179)
+	at org.eclipse.update.core.Feature.install(Feature.java:375)
+	at org.eclipse.update.internal.core.SiteFile.install(SiteFile.java:96)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:155)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:119)
+	at org.eclipse.update.internal.operations.InstallOperation.execute(InstallOperation.java:92)
+	at org.eclipse.update.internal.operations.BatchInstallOperation.execute(BatchInstallOperation.java:84)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.performSetup(QuickSetupService.java:754)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.run(QuickSetupService.java:779)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.tikal.eclipse.updatemanager.quicksetup 4 -1 2016-06-10 16:59:35.374
+!MESSAGE Error
+!STACK 1
+org.eclipse.update.internal.core.FeatureDownloadException: An exception occured while downloading feature from "http://downloads.myeclipseide.com/downloads/products/eworkbench/discovery-6.5/features/com.genuitec.myeclipse.reports_6.6.0.zmyeclipse660200810.jar".
+	at org.eclipse.update.core.FeatureContentProvider.asLocalReference(FeatureContentProvider.java:303)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.retrieveLocalJar(FeaturePackagedContentProvider.java:191)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.getPluginEntryArchiveReferences(FeaturePackagedContentProvider.java:179)
+	at org.eclipse.update.core.Feature.install(Feature.java:375)
+	at org.eclipse.update.internal.core.SiteFile.install(SiteFile.java:96)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:155)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:119)
+	at org.eclipse.update.internal.operations.InstallOperation.execute(InstallOperation.java:92)
+	at org.eclipse.update.internal.operations.BatchInstallOperation.execute(BatchInstallOperation.java:84)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.performSetup(QuickSetupService.java:754)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.run(QuickSetupService.java:779)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+org.eclipse.update.internal.core.FeatureDownloadException[0]: java.io.IOException
+	at org.eclipse.update.core.FeatureContentProvider.asLocalReference(FeatureContentProvider.java:303)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.retrieveLocalJar(FeaturePackagedContentProvider.java:191)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.getPluginEntryArchiveReferences(FeaturePackagedContentProvider.java:179)
+	at org.eclipse.update.core.Feature.install(Feature.java:375)
+	at org.eclipse.update.internal.core.SiteFile.install(SiteFile.java:96)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:155)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:119)
+	at org.eclipse.update.internal.operations.InstallOperation.execute(InstallOperation.java:92)
+	at org.eclipse.update.internal.operations.BatchInstallOperation.execute(BatchInstallOperation.java:84)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.performSetup(QuickSetupService.java:754)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.run(QuickSetupService.java:779)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.update.core 1 0 2016-06-10 16:59:35.375
+!MESSAGE An exception occured while downloading feature from "http://downloads.myeclipseide.com/downloads/products/eworkbench/discovery-6.5/features/com.genuitec.myeclipse.reports_6.6.0.zmyeclipse660200810.jar".
+!STACK 0
+java.io.IOException
+	at org.eclipse.update.core.FeatureContentProvider.asLocalReference(FeatureContentProvider.java:303)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.retrieveLocalJar(FeaturePackagedContentProvider.java:191)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.getPluginEntryArchiveReferences(FeaturePackagedContentProvider.java:179)
+	at org.eclipse.update.core.Feature.install(Feature.java:375)
+	at org.eclipse.update.internal.core.SiteFile.install(SiteFile.java:96)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:155)
+	at org.eclipse.update.internal.core.ConfiguredSite.install(ConfiguredSite.java:119)
+	at org.eclipse.update.internal.operations.InstallOperation.execute(InstallOperation.java:92)
+	at org.eclipse.update.internal.operations.BatchInstallOperation.execute(BatchInstallOperation.java:84)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.performSetup(QuickSetupService.java:754)
+	at com.tikal.eclipse.updatemanager.quicksetup.service.QuickSetupService$QuickSetupJob.run(QuickSetupService.java:779)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2016-06-10 18:04:20.870 -----------------------------------------------
+eclipse.buildId=M20080221-1800
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.update.configurator 2016-06-10 18:04:23.770
+!MESSAGE Could not install bundle ../myeclipse/eclipse/plugins/com.ibm.icu_3.6.1.v20070906.jar   Bundle "com.ibm.icu" version "3.6.1.v20070906" has already been installed from: update@plugins/com.ibm.icu_3.6.1.v20070906.jar
+
+!ENTRY org.eclipse.update.configurator 2016-06-10 18:04:23.780
+!MESSAGE Could not install bundle ../myeclipse/eclipse/plugins/javax.servlet.jsp_2.0.0.v200706191603.jar   Bundle "javax.servlet.jsp" version "2.0.0.v200706191603" has already been installed from: update@plugins/javax.servlet.jsp_2.0.0.v200706191603.jar
+
+!ENTRY org.eclipse.update.configurator 2016-06-10 18:04:23.782
+!MESSAGE Could not install bundle ../myeclipse/eclipse/plugins/javax.servlet_2.4.0.v200706111738.jar   Bundle "javax.servlet" version "2.4.0.v200706111738" has already been installed from: update@plugins/javax.servlet_2.4.0.v200706111738.jar
+
+!ENTRY org.eclipse.update.configurator 2016-06-10 18:04:23.793
+!MESSAGE Could not install bundle ../myeclipse/eclipse/plugins/org.apache.commons.el_1.0.0.v200706111724.jar   Bundle "org.apache.commons.el" version "1.0.0.v200706111724" has already been installed from: update@plugins/org.apache.commons.el_1.0.0.v200706111724.jar
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:38.263
+!MESSAGE NLS missing message: AddJSTLLibsWizardPage_label_1_0 in: com.genuitec.eclipse.j2eedt.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:38.264
+!MESSAGE NLS missing message: AddJSTLLibsWizardPage_label_1_1 in: com.genuitec.eclipse.j2eedt.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:38.264
+!MESSAGE NLS missing message: AddJSTLLibsWizardPage_label_error in: com.genuitec.eclipse.j2eedt.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.021
+!MESSAGE NLS unused message: action.moduleProjectWizardAction in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.022
+!MESSAGE NLS unused message: artifactComponent.artifact in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.022
+!MESSAGE NLS unused message: artifactComponent.artifactId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.022
+!MESSAGE NLS unused message: artifactComponent.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.023
+!MESSAGE NLS unused message: artifactComponent.groupId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.023
+!MESSAGE NLS unused message: artifactComponent.name in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.023
+!MESSAGE NLS unused message: artifactComponent.package in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.023
+!MESSAGE NLS unused message: artifactComponent.packaging in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.024
+!MESSAGE NLS unused message: artifactComponent.version in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.024
+!MESSAGE NLS unused message: directoriesComponent.projectLayout in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.024
+!MESSAGE NLS unused message: launch.browseFs in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.024
+!MESSAGE NLS unused message: launch.browseVariables in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.025
+!MESSAGE NLS unused message: launch.browseWorkspace in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.025
+!MESSAGE NLS unused message: launch.choosePomDir in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.025
+!MESSAGE NLS unused message: launch.errorPomMissing in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.025
+!MESSAGE NLS unused message: launch.errorSelectPom in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.026
+!MESSAGE NLS unused message: launch.goals in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.026
+!MESSAGE NLS unused message: launch.goalsDialog.lifecyclePhases in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.026
+!MESSAGE NLS unused message: launch.goalsDialog.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.026
+!MESSAGE NLS unused message: launch.goalsLabel in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.027
+!MESSAGE NLS unused message: launch.mainTabName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.027
+!MESSAGE NLS unused message: launch.pomDirectoryDoesntExist in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.027
+!MESSAGE NLS unused message: launch.pomDirectoryEmpty in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.027
+!MESSAGE NLS unused message: launch.pomGroup in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.028
+!MESSAGE NLS unused message: launch.profilesLabel in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.028
+!MESSAGE NLS unused message: launch.propAddButton in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.028
+!MESSAGE NLS unused message: launch.propAddDialogTitle in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.028
+!MESSAGE NLS unused message: launch.propEditDialogTitle in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.029
+!MESSAGE NLS unused message: launch.propName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.029
+!MESSAGE NLS unused message: launch.propRemoveButton in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.029
+!MESSAGE NLS unused message: launch.propValue in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.029
+!MESSAGE NLS unused message: launch.propertyDialog.browseVariables in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.030
+!MESSAGE NLS unused message: launch.propertyDialog.name in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.030
+!MESSAGE NLS unused message: launch.propertyDialog.value in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.031
+!MESSAGE NLS unused message: locationComponent.atExternal in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.031
+!MESSAGE NLS unused message: locationComponent.browse in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.031
+!MESSAGE NLS unused message: locationComponent.directory in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.032
+!MESSAGE NLS unused message: locationComponent.inWorkspace in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.032
+!MESSAGE NLS unused message: locationComponent.location in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.032
+!MESSAGE NLS unused message: locationComponent.selectLocation in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.032
+!MESSAGE NLS unused message: plugin.markerArtifactResolutionError in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.033
+!MESSAGE NLS unused message: plugin.markerBuildError in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.033
+!MESSAGE NLS unused message: plugin.markerParsingError in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.033
+!MESSAGE NLS unused message: preferences.checksumPolicyFail in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.033
+!MESSAGE NLS unused message: preferences.checksumPolicyIgnore in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.034
+!MESSAGE NLS unused message: preferences.checksumPolicyWarn in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.034
+!MESSAGE NLS unused message: preferences.debugOutput in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.034
+!MESSAGE NLS unused message: preferences.downloadSources in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.034
+!MESSAGE NLS unused message: preferences.downloadJavadoc in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.035
+!MESSAGE NLS unused message: preferences.globalChecksumPolicy in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.035
+!MESSAGE NLS unused message: preferences.globalSettingsFile in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.035
+!MESSAGE NLS unused message: preferences.goalOnImport in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.036
+!MESSAGE NLS unused message: preferences.goalOnUpdate in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.036
+!MESSAGE NLS unused message: preferences.localRepository in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.039
+!MESSAGE NLS unused message: preferences.offline in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.039
+!MESSAGE NLS unused message: preferences.refreshButton in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.039
+!MESSAGE NLS unused message: preferences.reindexButton in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.040
+!MESSAGE NLS unused message: preferences.userSettingsFile in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.040
+!MESSAGE NLS unused message: projectSelectionDialog.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.040
+!MESSAGE NLS unused message: resolverConfiguration.advanced in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.041
+!MESSAGE NLS unused message: resolverConfiguration.enableResourceFiltering in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.041
+!MESSAGE NLS unused message: resolverConfiguration.profiles in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.041
+!MESSAGE NLS unused message: resolverConfiguration.projectsForModules in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.041
+!MESSAGE NLS unused message: resolverConfiguration.resolveWorkspaceProjects in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.042
+!MESSAGE NLS unused message: resolverConfiguration.template in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.042
+!MESSAGE NLS unused message: resolverConfiguration.templateDescription in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.042
+!MESSAGE NLS unused message: resolverConfiguration.useMavenOutputFolders in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.043
+!MESSAGE NLS unused message: wizard.import.page.browse in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.043
+!MESSAGE NLS unused message: wizard.import.page.deselectAll in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.043
+!MESSAGE NLS unused message: wizard.import.page.projects in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.043
+!MESSAGE NLS unused message: wizard.import.page.refresh in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.044
+!MESSAGE NLS unused message: wizard.import.page.root in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.044
+!MESSAGE NLS unused message: wizard.import.page.scanningErrors in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.044
+!MESSAGE NLS unused message: wizard.import.page.selectAll in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.044
+!MESSAGE NLS unused message: wizard.import.page.selectRootFolder in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.045
+!MESSAGE NLS unused message: wizard.import.validator.projectExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.045
+!MESSAGE NLS unused message: wizard.import.validator.workspaceFolder in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.045
+!MESSAGE NLS unused message: wizard.module.page.archetype.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.045
+!MESSAGE NLS unused message: wizard.module.page.artifact.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.046
+!MESSAGE NLS unused message: wizard.module.page.parameters.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.046
+!MESSAGE NLS unused message: wizard.module.page.parent.browse in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.047
+!MESSAGE NLS unused message: wizard.module.page.parent.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.047
+!MESSAGE NLS unused message: wizard.module.page.parent.moduleName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.048
+!MESSAGE NLS unused message: wizard.module.page.parent.parentProject in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.048
+!MESSAGE NLS unused message: wizard.module.page.parent.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.048
+!MESSAGE NLS unused message: wizard.module.page.parent.validator.moduleName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.049
+!MESSAGE NLS unused message: wizard.module.page.parent.validator.nameExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.049
+!MESSAGE NLS unused message: wizard.module.page.parent.validator.parentProject in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.049
+!MESSAGE NLS unused message: wizard.module.page.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.049
+!MESSAGE NLS unused message: wizard.module.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.050
+!MESSAGE NLS unused message: wizard.project.error.pomAlreadyExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.050
+!MESSAGE NLS unused message: wizard.project.error.pomExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.050
+!MESSAGE NLS unused message: wizard.project.job.creating in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.051
+!MESSAGE NLS unused message: wizard.project.job.creatingProject in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.052
+!MESSAGE NLS unused message: wizard.project.job.failed in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.052
+!MESSAGE NLS unused message: wizard.project.page.archetype.archetypes in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.052
+!MESSAGE NLS unused message: wizard.project.page.archetype.column.artifactId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.053
+!MESSAGE NLS unused message: wizard.project.page.archetype.column.groupId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.053
+!MESSAGE NLS unused message: wizard.project.page.archetype.column.version in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.053
+!MESSAGE NLS unused message: wizard.project.page.archetype.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.053
+!MESSAGE NLS unused message: wizard.project.page.archetype.details in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.054
+!MESSAGE NLS unused message: wizard.project.page.archetype.details.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.054
+!MESSAGE NLS unused message: wizard.project.page.archetype.details.repository in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.054
+!MESSAGE NLS unused message: wizard.project.page.archetype.retrievingArchetypes in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.054
+!MESSAGE NLS unused message: wizard.project.page.archetype.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.055
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.artifactId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.055
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.browse in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.056
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.clear in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.057
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.groupId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.058
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.058
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.version in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.058
+!MESSAGE NLS unused message: wizard.project.page.dependencies.add in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.059
+!MESSAGE NLS unused message: wizard.project.page.dependencies.dependencies in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.059
+!MESSAGE NLS unused message: wizard.project.page.dependencies.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.060
+!MESSAGE NLS unused message: wizard.project.page.dependencies.remove in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.061
+!MESSAGE NLS unused message: wizard.project.page.dependencies.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.061
+!MESSAGE NLS unused message: wizard.project.page.maven2.archetype.parameters.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.061
+!MESSAGE NLS unused message: wizard.project.page.maven2.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.062
+!MESSAGE NLS unused message: wizard.project.page.maven2.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.062
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.artifactID in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.062
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.groupID in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.063
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.packaging in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.063
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.parent in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.064
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.requiredProperty in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.065
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.version in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.065
+!MESSAGE NLS unused message: wizard.project.page.project.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.065
+!MESSAGE NLS unused message: wizard.project.page.project.projectName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.066
+!MESSAGE NLS unused message: wizard.project.page.project.simpleProject in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.066
+!MESSAGE NLS unused message: wizard.project.page.project.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.067
+!MESSAGE NLS unused message: wizard.project.page.project.validator.invalidLocation in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.067
+!MESSAGE NLS unused message: wizard.project.page.project.validator.projectExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.068
+!MESSAGE NLS unused message: wizard.project.page.project.validator.projectLocation in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.068
+!MESSAGE NLS unused message: wizard.project.page.project.validator.projectName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-10 18:04:41.068
+!MESSAGE NLS unused message: wizard.project.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.maven.ide.eclipse 4 0 2016-06-10 18:04:47.660
+!MESSAGE Unable to update index for central http://repo1.maven.org/maven2/
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error updating index
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.fetchAndUpdateIndex(NexusIndexManager.java:501)
+	at org.maven.ide.eclipse.index.IndexManager$UpdateCommand.run(IndexManager.java:417)
+	at org.maven.ide.eclipse.index.IndexManager$IndexUpdaterJob.run(IndexManager.java:534)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+org.eclipse.core.runtime.CoreException[-1]: java.io.IOException: Resource nexus-maven-repository-index.zip does not exist
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadResource(DefaultIndexUpdater.java:243)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$1.invoke(DefaultIndexUpdater.java:87)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.run(DefaultIndexUpdater.java:169)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:63)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.fetchAndUpdateIndex(NexusIndexManager.java:491)
+	at org.maven.ide.eclipse.index.IndexManager$UpdateCommand.run(IndexManager.java:417)
+	at org.maven.ide.eclipse.index.IndexManager$IndexUpdaterJob.run(IndexManager.java:534)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.maven.ide.eclipse 4 -1 2016-06-10 18:04:47.661
+!MESSAGE Error updating index
+!STACK 0
+java.io.IOException: Resource nexus-maven-repository-index.zip does not exist
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadResource(DefaultIndexUpdater.java:243)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$1.invoke(DefaultIndexUpdater.java:87)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.run(DefaultIndexUpdater.java:169)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:63)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.fetchAndUpdateIndex(NexusIndexManager.java:491)
+	at org.maven.ide.eclipse.index.IndexManager$UpdateCommand.run(IndexManager.java:417)
+	at org.maven.ide.eclipse.index.IndexManager$IndexUpdaterJob.run(IndexManager.java:534)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.tikal.eclipse.updatemanager.quicksetup 4 4 2016-06-10 18:05:31.456
+!MESSAGE Network connection problems encountered during search.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:11:17.071
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:11:19.020
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:11:49.921
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:13:36.093
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:13:38.048
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:15:25.770
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:15:32.528
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:15:32.529
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:15:34.620
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:15:49.186
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:15:50.673
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:17:50.787
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:17:50.789
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:17:50.790
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:17:50.792
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:17:50.793
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:17:50.794
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:17:50.795
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:18:59.371
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:19:37.922
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:19:38.503
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:22:03.571
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:22:32.522
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:22:32.659
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:22:33.340
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:22:59.521
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:23:01.471
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:24:39.871
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:25:06.873
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:25:07.470
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:27:31.171
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:29:09.554
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:29:09.891
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:29:09.891
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:29:09.891
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:31:13.171
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:31:15.121
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:31:49.171
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:31:49.446
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:31:49.921
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:31:49.925
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:32:06.421
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:32:07.320
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:33:01.321
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:33:01.771
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:33:03.121
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:34:34.444
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:34:34.444
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:34:34.444
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:34:39.120
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:34:39.580
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:34:39.580
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:34:40.771
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:36:15.871
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:41:03.870
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:41:04.920
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:42:49.621
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:47:38.220
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:47:38.673
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:47:39.019
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:47:39.020
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:47:39.020
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:48:37.581
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:48:37.581
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:48:37.582
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:51:12.120
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:52:16.772
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:54:45.421
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:54:46.296
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:54:46.297
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:54:48.420
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:55:26.371
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:58:03.045
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:58:03.046
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 18:58:03.046
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:00:03.253
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:01:09.871
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:01:15.218
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:01:15.219
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:01:18.571
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:01:23.370
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:01:44.522
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:01:44.820
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:01:45.775
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:01:45.775
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:08:32.521
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:08:43.920
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:08:44.221
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:08:45.270
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:08:45.871
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:08:47.970
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:09:07.621
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:09:07.629
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:09:36.731
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:12:16.021
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:12:18.871
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:12:53.070
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:12:53.827
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:12:54.583
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2016-06-10 19:14:26.634
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jsp.core.internal.java.jspel.ELGeneratorVisitor.visit(ELGeneratorVisitor.java:367)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTValue.jjtAccept(ASTValue.java:28)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:70)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.ELGeneratorVisitor.visit(ELGeneratorVisitor.java:353)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTUnaryExpression.jjtAccept(ASTUnaryExpression.java:28)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.SimpleNode.childrenAccept(SimpleNode.java:70)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.ELGeneratorVisitor.visit(ELGeneratorVisitor.java:223)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.ASTExpression.jjtAccept(ASTExpression.java:28)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.ELGenerator.generate(ELGenerator.java:43)
+	at org.eclipse.jst.jsp.core.internal.java.jspel.JSPELTranslator.translateEL(JSPELTranslator.java:50)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.translateEL(JSPTranslator.java:1474)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.translateEmbeddedJSPInAttribute(JSPTranslator.java:1606)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.checkAllAttributeValueContainers(JSPTranslator.java:1298)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.translateXMLNode(JSPTranslator.java:1274)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.translateRegionContainer(JSPTranslator.java:1005)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.translate(JSPTranslator.java:871)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslationAdapter.getJSPTranslation(JSPTranslationAdapter.java:127)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPJavaValidator.performValidation(JSPJavaValidator.java:162)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPJavaValidator.validateFile(JSPJavaValidator.java:202)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPValidator.validate(JSPValidator.java:193)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPJavaValidator.validate(JSPJavaValidator.java:180)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:283)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:249)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:96)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:209)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:193)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:252)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor.run(DirtyRegionProcessor.java:633)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:15:05.821
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:15:06.020
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:33:56.370
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:33:56.821
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:38:08.820
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 19:39:57.570
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY org.eclipse.wst.internet.cache 1 0 2016-06-10 19:59:26.101
+!MESSAGE wtp.autotest.noninteractive is set. Licenses dialogs will not be displayed.
+
+!ENTRY org.eclipse.core.expressions 4 201 2016-06-10 20:00:52.872
+!MESSAGE No property tester contributes a property capabilityEnabled to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property capabilityEnabled to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:109)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:95)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:43)
+	at org.eclipse.ui.internal.ObjectActionContributor$ObjectContribution.isApplicableTo(ObjectActionContributor.java:372)
+	at org.eclipse.ui.internal.ObjectActionContributor.isApplicableTo(ObjectActionContributor.java:241)
+	at org.eclipse.ui.internal.ObjectContributorManager.isApplicableTo(ObjectContributorManager.java:294)
+	at org.eclipse.ui.internal.ObjectActionContributorManager.contributeObjectActions(ObjectActionContributorManager.java:82)
+	at org.eclipse.ui.internal.PopupMenuExtender.addObjectActions(PopupMenuExtender.java:260)
+	at org.eclipse.ui.internal.PopupMenuExtender.menuAboutToShow(PopupMenuExtender.java:336)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:290)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:395)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:391)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:417)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:938)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:962)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:943)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:3981)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3698)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:291)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1554)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:1753)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4351)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:228)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:3708)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3287)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2016-06-10 20:00:52.872
+!MESSAGE No property tester contributes a property capabilityEnabled to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 20:03:15.443
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 20:03:16.939
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 20:03:18.439
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 20:03:19.339
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 20:09:52.339
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY org.eclipse.xsd 2 0 2016-06-10 20:48:04.658
+!MESSAGE The reference to entity "c" must end with the ';' delimiter.
+!STACK 0
+org.eclipse.emf.ecore.resource.Resource$IOWrappedException: The reference to entity "c" must end with the ';' delimiter.
+	at org.eclipse.xsd.util.XSDResourceImpl.getDocument(XSDResourceImpl.java:348)
+	at org.eclipse.xsd.util.XSDResourceImpl.getDocument(XSDResourceImpl.java:376)
+	at org.eclipse.xsd.util.XSDResourceImpl.doLoad(XSDResourceImpl.java:686)
+	at org.eclipse.xsd.util.XSDResourceImpl.doLoad(XSDResourceImpl.java:789)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1354)
+	at org.eclipse.wst.xsd.contentmodel.internal.XSDImpl.buildXSDModel(XSDImpl.java:213)
+	at org.eclipse.wst.xsd.contentmodel.internal.XSDImpl.buildCMDocument(XSDImpl.java:172)
+	at org.eclipse.wst.xsd.contentmodel.internal.CMDocumentFactoryXSD.createCMDocument(CMDocumentFactoryXSD.java:39)
+	at org.eclipse.wst.xml.core.internal.contentmodel.ContentModelManager.createCMDocument(ContentModelManager.java:56)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.CMDocumentManagerImpl.buildCMDocument(CMDocumentManagerImpl.java:267)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.CMDocumentManagerImpl$1.run(CMDocumentManagerImpl.java:239)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.xml.sax.SAXParseException: The reference to entity "c" must end with the ';' delimiter.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.xsd.util.XSDResourceImpl.getDocument(XSDResourceImpl.java:339)
+	... 11 more
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 20:56:40.638
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 20:57:37.255
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 20:57:37.256
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 20:57:50.428
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 20:57:50.428
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 21:35:07.621
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 21:44:36.613
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 22:06:23.348
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 22:06:38.198
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2016-06-10 22:23:58.819
+!MESSAGE Ignoring modified text node with null parent.

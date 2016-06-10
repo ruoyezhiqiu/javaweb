@@ -1,0 +1,39 @@
+package com.wushengde.tag;
+
+import javax.servlet.jsp.JspException;
+import javax.servlet.jsp.PageContext;
+import javax.servlet.jsp.tagext.Tag;
+
+public class ShowIpTag implements Tag {
+
+	public int doEndTag() throws JspException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public int doStartTag() throws JspException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public Tag getParent() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void release() {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void setPageContext(PageContext pc) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void setParent(Tag t) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,38 @@
+package com.wushengde.simpletag;
+
+import java.io.IOException;
+
+import javax.servlet.jsp.JspContext;
+import javax.servlet.jsp.JspException;
+import javax.servlet.jsp.tagext.JspFragment;
+import javax.servlet.jsp.tagext.JspTag;
+import javax.servlet.jsp.tagext.SimpleTag;
+
+public class SimpleShowIp implements SimpleTag {
+
+	public void doTag() throws JspException, IOException {
+		// TODO Auto-generated method stub
+
+	}
+
+	public JspTag getParent() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void setJspBody(JspFragment jspBody) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void setJspContext(JspContext pc) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void setParent(JspTag parent) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
