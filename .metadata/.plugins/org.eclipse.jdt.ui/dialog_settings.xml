@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="AddGetterSetterDialog">
+		<item key="SortOrdering" value="false"/>
+		<item key="RemoveFinal" value="false"/>
+	</section>
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="NewJspCreationWizardPage">
 		<item key="templateen_CN" value="Default JSP template"/>
-		<item key="filePath" value="/day06/WebRoot"/>
+		<item key="filePath" value="/day06/WebRoot/jstl"/>
 	</section>
 	<section name="BuildPathsPropertyPage">
 		<item key="pageIndex" value="2"/>
@@ -12,6 +16,18 @@
 	<section name="RefactoringWizard.preview">
 		<item key="width" value="600"/>
 		<item key="height" value="400"/>
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item key="updateSimilarElementsMatchStrategy" value="1"/>
+		<item key="updateSimilarElements" value="false"/>
+		<item key="patterns" value=""/>
+		<item key="updateTextualMatches" value="false"/>
+		<item key="updateQualifiedNames" value="false"/>
+	</section>
+	<section name="NewHtmlCreationWizardPage">
+		<item key="doctype" value="HTML 4.01 Transitional"/>
+		<item key="templateen_CN" value="Default HTML template"/>
+		<item key="filePath" value="/day04/WebRoot"/>
 	</section>
 	<section name="NewServletCreationWizardPage">
 		<item key="create_main" value="true"/>
@@ -25,17 +41,11 @@
 		<item key="create_doinitdestroy" value="false"/>
 		<item key="create_constructor" value="false"/>
 	</section>
-	<section name="org.eclipse.ltk.ui.refactoring.settings">
-		<item key="updateSimilarElementsMatchStrategy" value="1"/>
-		<item key="updateSimilarElements" value="false"/>
-		<item key="patterns" value=""/>
-		<item key="updateTextualMatches" value="false"/>
-		<item key="updateQualifiedNames" value="false"/>
-	</section>
-	<section name="NewHtmlCreationWizardPage">
-		<item key="doctype" value="HTML 4.01 Transitional"/>
-		<item key="templateen_CN" value="Default HTML template"/>
-		<item key="filePath" value="/day04/WebRoot"/>
+	<section name="SourceActionDialog.methods">
+		<item key="Comments" value="false"/>
+		<item key="FinalModifier" value="false"/>
+		<item key="VisibilityModifier" value="1"/>
+		<item key="SynchronizedModifier" value="false"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="rootMode" value="1"/>
