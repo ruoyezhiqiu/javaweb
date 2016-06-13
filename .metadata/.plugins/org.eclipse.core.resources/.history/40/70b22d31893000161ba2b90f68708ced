@@ -1,0 +1,9 @@
+package com.wushengde.test;
+
+import com.wushengde.dao.XmlUserDao;
+
+public class XmlUserDaoTest {
+	public void testFindUserByUserName(){
+		XmlUserDao dao = new XmlUserDao();
+	}
+}

@@ -1,0 +1,22 @@
+package com.wushengde.util;
+
+import org.dom4j.Document;
+import org.dom4j.DocumentException;
+import org.dom4j.io.SAXReader;
+
+public class XmlDaoUtils {
+	private XmlDaoUtils(){
+	}
+	static{
+		SAXReader reader = new SAXReader();
+		try {
+			reader.read("");
+		} catch (DocumentException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	public static Documentent getDom(){
+		
+	}
+}

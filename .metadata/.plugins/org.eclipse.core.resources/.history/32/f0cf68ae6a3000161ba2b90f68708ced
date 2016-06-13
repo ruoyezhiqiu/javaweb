@@ -1,0 +1,9 @@
+package com.wushengde.domain;
+
+public class User {
+	private String username;
+	private String password;
+	private String password2;
+	private String nickname;
+	private String email;
+}

@@ -192,7 +192,7 @@
 		 </c:forEach>
 		 
 		 <h3>作用三：遍历Map中的数据</h3>
-		 <p>hashMap:无顺序；LinkedHashMap：有顺序</p> 
+		 <p style="color:red;">注：hashMap:无顺序；LinkedHashMap：有顺序</p> 
 		 <%
 		 	Map mapnew = new LinkedHashMap();
 		 	mapnew.put("name","曹操");

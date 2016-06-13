@@ -1,0 +1,31 @@
+package com.wushengde.test;
+
+import org.junit.Test;
+
+import com.wushengde.dao.XmlUserDao;
+import com.wushengde.domain.User;
+
+public class XmlUserDaoTest {
+	@Test
+	public void testFindUserByUserName(){
+		XmlUserDao dao = new XmlUserDao();
+		User user = dao.findUserName("admin");
+		System.out.println(user);
+	}
+	@Test
+	public void testFindUserByNMandPSW(){
+		XmlUserDao dao = new XmlUserDao();
+		User user = dao.findUserByUNandPSW("admin", "admin");
+		System.out.println(user);
+	}
+	
+	public void testAddUser(){
+		XmlUserDao dao = new XmlUserDao();
+		User user = new User();
+		user.setUsername("test");
+		user.setPassword("test");
+		user.setNickname("test");
+		user.setEmail("test@qq.com");
+		dao.addUser(user);
+	}
+}

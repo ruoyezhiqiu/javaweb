@@ -1,0 +1,5 @@
+package com.wushengde.exception;
+
+public class MsgException extends Exception {
+
+}

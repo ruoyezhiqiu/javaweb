@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout resource="/user/WebRoot/WEB-INF/UserTag.tld">
+ <TreeFormPage>
+  <Memento type="FileTLD_2_0">
+   <Memento collapsed="false" type="Tag Library Description"/>
+   <Memento collapsed="false" type="Defined Tags"/>
+  </Memento>
+  <Memento type="%No text%">
+   <Memento collapsed="false" type="Functions"/>
+  </Memento>
+  <Memento type="">
+   <Memento type="Properties Editor"/>
+  </Memento>
+ </TreeFormPage>
+</Layout>

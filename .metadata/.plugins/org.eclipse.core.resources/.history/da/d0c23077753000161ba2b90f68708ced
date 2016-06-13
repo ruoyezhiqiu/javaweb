@@ -1,0 +1,6 @@
+package com.wushengde.util;
+
+public class XmlDaoUtils {
+	private XmlDaoUtils(){
+	}
+}

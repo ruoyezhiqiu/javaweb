@@ -8,7 +8,7 @@
 	</section>
 	<section name="NewJspCreationWizardPage">
 		<item key="templateen_CN" value="Default JSP template"/>
-		<item key="filePath" value="/day06/WebRoot/jstl"/>
+		<item key="filePath" value="/user/WebRoot"/>
 	</section>
 	<section name="BuildPathsPropertyPage">
 		<item key="pageIndex" value="2"/>
@@ -29,6 +29,27 @@
 		<item key="templateen_CN" value="Default HTML template"/>
 		<item key="filePath" value="/day04/WebRoot"/>
 	</section>
+	<section name="AddUnimplementedConstructorsDialog">
+		<item key="OmitCallToSuper" value="false"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;"/>
+		<item key="ShowStatusLine" value="true"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog">
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;"/>
+		<item key="ShowStatusLine" value="true"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_X_ORIGIN" value="-14"/>
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
+			<item key="DIALOG_Y_ORIGIN" value="3"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+		</section>
+	</section>
+	<section name="OverrideMethodDialog">
+		<item key="showtypes" value="true"/>
+	</section>
 	<section name="NewServletCreationWizardPage">
 		<item key="create_main" value="true"/>
 		<item key="create_doput" value="false"/>
@@ -40,6 +61,13 @@
 		<item key="create_doinitdestroy" value="false"/>
 		<item key="create_unimplemented" value="false"/>
 		<item key="create_constructor" value="false"/>
+	</section>
+	<section name="DialogBounds_SuperInterfaceSelectionDialog">
+		<item key="DIALOG_X_ORIGIN" value="104"/>
+		<item key="DIALOG_HEIGHT" value="346"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
+		<item key="DIALOG_Y_ORIGIN" value="106"/>
+		<item key="DIALOG_WIDTH" value="365"/>
 	</section>
 	<section name="SourceActionDialog.methods">
 		<item key="Comments" value="false"/>
@@ -54,14 +82,20 @@
 		<item key="layout" value="2"/>
 		<item key="group_libraries" value="true"/>
 	</section>
-	<section name="OptionalMessageDialog.hide.">
-		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
-	</section>
 	<section name="NewWebXmlLinkCreationWizardPage">
 		<item key="do_mapping" value="true"/>
 		<item key="display_name" value=""/>
 		<item key="description" value=""/>
-		<item key="filePath" value="/day06/WebRoot/WEB-INF"/>
+		<item key="filePath" value="/user/WebRoot/WEB-INF"/>
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
+	</section>
+	<section name="SourceActionDialog.constructors">
+		<item key="Comments" value="false"/>
+		<item key="FinalModifier" value="false"/>
+		<item key="VisibilityModifier" value="1"/>
+		<item key="SynchronizedModifier" value="false"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>

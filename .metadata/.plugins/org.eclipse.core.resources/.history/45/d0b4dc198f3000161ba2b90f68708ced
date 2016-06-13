@@ -1,0 +1,17 @@
+package com.wushengde.service;
+
+import com.wushengde.domain.User;
+
+public class UserService {
+	/**
+	 * 添加用户
+	 * @param user
+	 */
+	public void registUser(User user){
+		
+	}
+	//检查用户名密码是否正确
+	public void isUser(String username,String password){
+		
+	}
+}

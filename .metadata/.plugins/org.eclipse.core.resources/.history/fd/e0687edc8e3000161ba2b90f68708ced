@@ -1,0 +1,13 @@
+package com.wushengde.service;
+
+import com.wushengde.domain.User;
+
+public class UserService {
+	/**
+	 * ÃÌº””√ªß
+	 * @param user
+	 */
+	public void registUser(User user){
+		
+	}
+}

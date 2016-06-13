@@ -1,0 +1,11 @@
+package com.wushengde.test;
+
+import com.wushengde.dao.XmlUserDao;
+import com.wushengde.domain.User;
+
+public class XmlUserDaoTest {
+	public void testFindUserByUserName(){
+		XmlUserDao dao = new XmlUserDao();
+		User user = dao.findUserName("admin");
+	}
+}
