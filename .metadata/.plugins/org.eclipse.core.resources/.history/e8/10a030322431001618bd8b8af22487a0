@@ -20,7 +20,7 @@
 						用户名：
 					</td>
 					<td>
-					<!-- 此处为了防止使用java代码，自定义了UserTag标签来实现URL解码cookie中的中文信息 -->
+					<!-- 注释此处为了防止使用java代码，自定义了UserTag标签来实现URL解码cookie中的中文信息 -->
 						<input type="text" name="username" value="<UserTag:URLDEcoder content="${cookie.rename.value }" encode="utf-8"/>" />
 					</td>
 					<td><input type="checkbox" name="rename" value="ok"
