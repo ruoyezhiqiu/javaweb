@@ -25,4 +25,5 @@
 <fullyQualifiedTypeName name="com.wushengde.exception.MsgException"/>
 <fullyQualifiedTypeName name="com.wushengde.service.UserService"/>
 <fullyQualifiedTypeName name="com.wushengde.domain.User"/>
+<fullyQualifiedTypeName name="java.lang.Class"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,11 @@
+package com.wushengde.jdbc;
+/**
+ * 使用JDBC连接数据库的步骤：
+ * @author john
+ *
+ */
+public class JDBCDemo1 {
+	public static void main(String[] args) {
+		//1.
+	}
+}

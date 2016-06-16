@@ -1,0 +1,42 @@
+package com.wushengde.jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+
+/**
+ * 使用JDBC连接数据库的步骤：
+ * @author john
+ *
+ */
+public class JDBCDemo1 {
+	public static void main(String[] args) throws SQLException, ClassNotFoundException {
+		//1.注册数据库的驱动：
+		
+		//DriverManager.registerDriver(new Driver());//不建议使用这种注册方式，它有以下弊端：
+		// 弊端1：由于mysql在Driver类的实现中自己注册了一次，而我们又注册了一次，这样将导致mysql驱动被注册两次
+		//弊端2：创建mysql的Driver对象时，导致程序和具体的mysql驱动绑定在了一起，如果跟换了不同的数据库如：oracle，将需要改动java代码
+	
+		//以上两种弊端的解决方法：利用反射实现注册
+		Class.forName("com.mysql.jdbc.Driver;");
+		//以后需要更改数据库时直接可以到配置文件中修改，到时候以上括号中的代码(值为字符串类型)，可以直接封装到配置文件中，方便修改
+		//2.获取数据库连接
+		Connection conn=  DriverManager.getConnection("jdbc:mysql://localhost:3306/day08","root","123456");
+		//3.获取传输器对象
+		Statement statement = conn.createStatement();
+		//4.利用传输器传输sql语句到数据库中执行，获取结果集对象
+		ResultSet result = statement.executeQuery("select * from user");
+		//5.遍历结果集获取查询结果
+		while(result.next()){
+			String name = result.getString("name");
+			System.out.println(name);
+		}
+		//6.关闭资源:关闭原则最先创建的对象最后关闭
+		result.close();
+		statement.close();
+		conn.close();
+	}
+}
