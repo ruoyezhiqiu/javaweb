@@ -1,0 +1,93 @@
+package com.wushengde.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import org.junit.Test;
+
+import com.wushengde.domain.User;
+import com.wushengde.util.JDBCUtils;
+
+public class MysqlUserDao2 implements UserDao {
+
+	@Test
+	public void addUser(User user) {
+		Connection conn=null;
+		PreparedStatement ps=null;
+		String sql="insert into users values(null,'?','?','?','?')";
+		try{
+		conn=JDBCUtils.getConn();
+		ps=conn.prepareStatement(sql);
+		ps.setString(1, user.getUsername());
+		ps.setString(2, user.getPassword());
+		ps.setString(3, user.getNickname());
+		ps.setString(4,user.getEmail());
+		ps.executeUpdate();
+		}catch(Exception e){
+			e.printStackTrace();
+			throw new RuntimeException(e);
+		}finally{
+			JDBCUtils.close(null, ps, conn);
+		}
+	}
+
+	public User findUserByUNandPSW(String username, String password) {
+		Connection conn=null;
+		PreparedStatement ps=null;
+		ResultSet rs=null;
+		String sql="select * from users where username='?' and password='?'";
+		try{
+		conn=JDBCUtils.getConn();
+		stat=conn.createStatement();
+		rs=stat.executeQuery(sql);
+		if(rs.next()){
+			User user =new User();
+			user.setId(rs.getInt("id"));
+			user.setUsername(rs.getString("username"));
+			user.setPassword(rs.getString("password"));
+			user.setNickname(rs.getString("nickname"));
+			user.setEmail(rs.getString("email"));
+			return user;
+		}else{
+			return null;
+		}
+		}catch(Exception e){
+			e.printStackTrace();
+			throw new RuntimeException(e);
+		}finally{
+			JDBCUtils.close(rs, stat, conn);
+		}
+	}
+
+	public User findUserName(String username) {
+		Connection conn=null;
+		Statement stat=null;
+		ResultSet rs=null;
+		String sql="select * from users where username='"+username+"'";
+		try{
+		conn=JDBCUtils.getConn();
+		stat=conn.createStatement();
+		rs=stat.executeQuery(sql);
+		if(rs.next()){
+			User user =new User();
+			user.setId(rs.getInt("id"));
+			user.setUsername(rs.getString("username"));
+			user.setPassword(rs.getString("password"));
+			user.setNickname(rs.getString("nickname"));
+			user.setEmail(rs.getString("email"));
+			return user;
+		}else{
+			return null;
+		}
+		}catch(Exception e){
+			e.printStackTrace();
+			throw new RuntimeException(e);
+		}finally{
+			JDBCUtils.close(rs, stat, conn);
+		}
+	}
+	
+}
+

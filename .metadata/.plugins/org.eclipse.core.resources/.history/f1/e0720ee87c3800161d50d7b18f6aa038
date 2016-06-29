@@ -1,0 +1,8 @@
+package com.wushengde.batch;
+
+/*
+ 批处理：大量的语句，打包起来一次执行完成的过程叫做批处理(常见的sql语句)。
+ */
+public class StatementBatch {
+	
+}

@@ -1,0 +1,32 @@
+package com.wushengde.batch;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import com.wushengde.util.JDBCUtils;
+
+/*
+ 此处使用：preparedStatement 实现批处理
+ 目标：插一万条记录到数据库中！
+ 	create table psbatch(
+ 	id int primary key auto_increment,
+ 	name varchar(30)
+ 	);
+ */
+public class PSBatch {
+	public static void main(String[] args) {
+		Connection conn=null;
+		PreparedStatement ps = null;
+		ResultSet rs =null;
+		try{
+			conn=JDBCUtils.getConn();
+			ps=conn.prepareStatement("insert into psbatch values(null,?)");
+			ps.setString(1, "zhangsan");
+			ps.addBatch();
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			JDBCUtils.close(rs, ps, conn);
+		}
+	}
+}

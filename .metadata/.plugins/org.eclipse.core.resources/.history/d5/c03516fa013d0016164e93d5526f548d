@@ -1,0 +1,19 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>My JSP 'MyJsp.jsp' starting page</title>
+  </head>
+  <body>
+    管理员页面：admin.jsp <br>
+ 			<form
+			action="${pageContext.request.contextPath }/servlet/AddMsgServlet"
+			method="POST">
+			
+			文章标题：<input type="text" name="title" />
+			文章内容：<input type="text" name="context" />
+			发布时间：<input type="text" name="time" /><p>时间格式：XXXX-XX-XX</p>
+			<input type="submit" value="添加" />
+			</form>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+package com.wushengde.dao;
+
+import java.sql.Connection;
+import java.sql.Statement;
+
+import com.wushengde.domain.User;
+import com.wushengde.util.JDBCUtils;
+
+public class MysqlUserDao implements UserDao {
+	Connection conn=null;
+	Statement stat=null;
+	public void addUser(User user) {
+		try{
+		conn=JDBCUtils.getConn();
+		stat=conn.createStatement();
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			JDBCUtils.close(null, stat, conn);
+		}
+	}
+
+	public User findUserByUNandPSW(String username, String password) {
+		return null;
+	}
+
+	public User findUserName(String username) {
+		return null;
+	}
+	
+}

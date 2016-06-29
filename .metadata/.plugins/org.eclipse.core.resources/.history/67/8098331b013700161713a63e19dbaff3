@@ -1,0 +1,9 @@
+package com.wushengde.dao;
+
+import com.wushengde.domain.User;
+
+public interface UserDao {
+	public User findUserName(String username);
+	public void addUser(User user);
+	public User findUserByUNandPSW(String username, String password);
+}

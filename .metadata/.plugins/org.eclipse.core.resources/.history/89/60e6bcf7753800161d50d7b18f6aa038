@@ -1,0 +1,6 @@
+package com.wushengde.lob;
+
+public class BlobDemo01 {
+	public void findBlob(){}
+	public void addBlob(){}
+}

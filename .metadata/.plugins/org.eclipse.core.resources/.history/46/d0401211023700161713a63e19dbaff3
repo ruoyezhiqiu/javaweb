@@ -1,0 +1,19 @@
+package com.wushengde.dao;
+
+import com.wushengde.domain.User;
+
+public class MysqlUserDao implements UserDao {
+
+	public void addUser(User user) {
+		
+	}
+
+	public User findUserByUNandPSW(String username, String password) {
+		return null;
+	}
+
+	public User findUserName(String username) {
+		return null;
+	}
+	
+}

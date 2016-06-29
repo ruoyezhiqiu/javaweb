@@ -15,10 +15,8 @@
 <fullyQualifiedTypeName name="org.dom4j.DocumentHelper"/>
 <fullyQualifiedTypeName name="org.dom4j.Element"/>
 <fullyQualifiedTypeName name="org.dom4j.io.XMLWriter"/>
-<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 <fullyQualifiedTypeName name="org.dom4j.io.OutputFormat"/>
 <fullyQualifiedTypeName name="com.wushengde.util.XmlDaoUtils"/>
-<fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="com.wushengde.dao.XmlUserDao"/>
 <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 <fullyQualifiedTypeName name="org.apache.commons.beanutils.BeanUtils"/>
@@ -26,4 +24,26 @@
 <fullyQualifiedTypeName name="com.wushengde.service.UserService"/>
 <fullyQualifiedTypeName name="com.wushengde.domain.User"/>
 <fullyQualifiedTypeName name="java.lang.Class"/>
+<fullyQualifiedTypeName name="com.wushengde.dao.MysqlUserDao"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="com.wushengde.dao.UserDao"/>
+<fullyQualifiedTypeName name="com.wushengde.factory.DaoFactory"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.Reader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.Writer"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="com.wushengde.util.JDBCUtils"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 </qualifiedTypeNameHistroy>

@@ -2,6 +2,8 @@ package com.wushengde.web;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -43,6 +45,9 @@ public class RegistServlet extends HttpServlet {
 			// 4. 登录用户
 			request.getSession().setAttribute("user", user);
 			// 5.提示注册成功3秒回到主页
+			  List list = new ArrayList();
+			  list=service.findMessage();
+			  request.getSession().setAttribute("messages", list);
 			response.getWriter().write("恭喜您注册成功！3秒后回到主页......");
 			response.setHeader("Refresh", "3;url="+request.getContextPath()+"/index.jsp");
 		}catch(MsgException e){
@@ -53,7 +58,6 @@ public class RegistServlet extends HttpServlet {
 			e.printStackTrace();
 			throw new RuntimeException(e);
 		}
-
 	}
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response)

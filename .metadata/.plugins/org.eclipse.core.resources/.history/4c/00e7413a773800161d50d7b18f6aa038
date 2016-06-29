@@ -1,0 +1,27 @@
+package com.wushengde.lob;
+
+import org.junit.Test;
+
+/*
+	create table blobdemo(
+	id int primary key auto_increment,
+	name varchar(100),
+	content MEDIUMBLOB
+	);
+*/
+public class BlobDemo01 {
+	
+	
+	@Test
+	public void findBlob(){
+		
+		
+	}
+	
+	
+	@Test
+	public void addBlob(){
+		
+		
+	}
+}

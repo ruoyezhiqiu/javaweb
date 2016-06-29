@@ -1,0 +1,7 @@
+package com.wushengde.domain;
+
+public class Admin {
+	private id;
+	private username;
+	private password;
+}

@@ -1,0 +1,5 @@
+package com.wushengde.factory;
+
+public class DaoFactory {
+
+}

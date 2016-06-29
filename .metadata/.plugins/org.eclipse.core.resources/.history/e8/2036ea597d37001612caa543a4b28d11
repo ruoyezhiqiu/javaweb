@@ -1,0 +1,5 @@
+package com.wushengde.dao;
+
+public class MysqlUserDao2 {
+
+}

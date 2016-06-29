@@ -6,11 +6,13 @@ import org.dom4j.Document;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
 
+import com.wushengde.domain.Admin;
+import com.wushengde.domain.Message;
 import com.wushengde.domain.User;
 import com.wushengde.util.XmlDaoUtils;
 
 
-public class XmlUserDao {
+public class XmlUserDao implements UserDao {
 	
 	/**
 	 * 根据用户名查找用户
@@ -91,5 +93,37 @@ public class XmlUserDao {
 		} else {//说明没有找到这个用户
 			return null;
 		}
+	}
+
+
+	public Admin findAdminUP(String username, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	public List findMessage() {
+		return null;
+	}
+
+
+	public void addMsg(Message msg) {
+	}
+
+
+	public Message findMsg(int id) {
+		return null;
+	}
+
+
+	public void updateMsg(Message msg) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	public void deleteMsg(Message msg) {
+		// TODO Auto-generated method stub
+		
 	}
 }

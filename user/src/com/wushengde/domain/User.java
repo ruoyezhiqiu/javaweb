@@ -5,12 +5,19 @@ import java.io.Serializable;
 import com.wushengde.exception.MsgException;
 //javabean一般建议实现以下Serializable接口
 public class User implements Serializable {
+	private int id;
 	private String username;
 	private String password;
 	private String password2;
 	private String nickname;
 	private String email;
 	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
 	@Override
 	public String toString() {
 		

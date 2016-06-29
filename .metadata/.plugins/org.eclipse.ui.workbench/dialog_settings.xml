@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="374"/>
+		<item key="DIALOG_X_ORIGIN" value="69"/>
 		<item key="DIALOG_Y_ORIGIN" value="8"/>
 	</section>
 	<section name="NewWizardAction">
@@ -10,5 +10,12 @@
 			<item value="com.genuitec.eclipse.myeclipse"/>
 			<item value="com.genuitec.eclipse.myeclipse/com.genuitec.eclipse.myeclipse.web"/>
 		</list>
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+		<item key="internalFilter" value="true"/>
+		<item key="actionSetFilter" value="true"/>
+		<item key="showAllConvert" value="true"/>
+		<item key="uncategorizedFilter" value="true"/>
+		<item key="showAllField" value="true"/>
 	</section>
 </section>

@@ -5,11 +5,10 @@
 <html>
 	<head>
 	</head>
-
 	<body>
 	<div align="center">
 		<h1>&nbsp; 
-			我的网站-登录 
+			我的网站-普通用户登录 
 		</h1>
 		<form
 			action="${pageContext.request.contextPath }/servlet/LoginServlet"

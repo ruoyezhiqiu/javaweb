@@ -30,6 +30,41 @@
     <servlet-name>LogoutServlet</servlet-name>
     <servlet-class>com.wushengde.web.LogoutServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>com.wushengde.web.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddMsgServlet</servlet-name>
+    <servlet-class>com.wushengde.web.AddMsgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EditServlet</servlet-name>
+    <servlet-class>com.wushengde.web.EditServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>com.wushengde.web.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EditEndServlet</servlet-name>
+    <servlet-class>com.wushengde.web.EditEndServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FindAllMsgServlet</servlet-name>
+    <servlet-class>com.wushengde.web.FindAllMsgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminLogoutServlet</servlet-name>
+    <servlet-class>com.wushengde.web.AdminLogoutServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
 
 
 
@@ -48,6 +83,34 @@
   <servlet-mapping>
     <servlet-name>LogoutServlet</servlet-name>
     <url-pattern>/servlet/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/servlet/AdminLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddMsgServlet</servlet-name>
+    <url-pattern>/servlet/AddMsgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditServlet</servlet-name>
+    <url-pattern>/servlet/EditServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteServlet</servlet-name>
+    <url-pattern>/servlet/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditEndServlet</servlet-name>
+    <url-pattern>/servlet/EditEndServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindAllMsgServlet</servlet-name>
+    <url-pattern>/servlet/FindAllMsgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLogoutServlet</servlet-name>
+    <url-pattern>/servlet/AdminLogoutServlet</url-pattern>
   </servlet-mapping>
 	
   <welcome-file-list>
