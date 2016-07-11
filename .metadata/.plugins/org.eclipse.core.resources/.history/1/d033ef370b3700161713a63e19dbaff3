@@ -1,4 +1,0 @@
-driver=com.mysql.jdbc.Driver
-url=jdbc:mysql:///newuser
-user=root
-password=123456

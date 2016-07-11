@@ -1,0 +1,13 @@
+package com.wushengde.dbutils;
+
+import org.apache.commons.dbutils.QueryRunner;
+
+import com.mchange.v2.c3p0.ComboPooledDataSource;
+
+public class RSHandlerDemo {
+	
+	// ArrayHandler 把结果集中的第一行数据转成对象数组
+	public void find1(){
+		QueryRunner runner=new QueryRunner(new ComboPooledDataSource());
+	}
+}

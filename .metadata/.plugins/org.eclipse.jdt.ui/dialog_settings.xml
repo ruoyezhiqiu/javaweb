@@ -8,6 +8,9 @@
 		<item key="SortOrdering" value="false"/>
 		<item key="RemoveFinal" value="false"/>
 	</section>
+	<section name="GenerateConstructorUsingFieldsSelectionDialog">
+		<item key="OmitCallToSuper" value="false"/>
+	</section>
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="NewJspCreationWizardPage">
@@ -100,7 +103,7 @@
 		<item key="do_mapping" value="true"/>
 		<item key="display_name" value=""/>
 		<item key="description" value=""/>
-		<item key="filePath" value="/user/WebRoot/WEB-INF"/>
+		<item key="filePath" value="/day10/WebRoot/WEB-INF"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>

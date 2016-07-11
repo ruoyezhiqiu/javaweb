@@ -1,5 +1,0 @@
-package com.wushengde.dao;
-
-public interface UserDao {
-
-}

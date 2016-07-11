@@ -1,0 +1,13 @@
+package com.wushengde.dbutils;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class DbUtilsUpdate {
+	Connection conn=null;
+	PreparedStatement ps=null;
+	ResultSet rs=null;
+	
+	
+}

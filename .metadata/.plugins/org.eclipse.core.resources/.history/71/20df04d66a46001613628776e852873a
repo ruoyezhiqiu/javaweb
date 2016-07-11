@@ -1,0 +1,78 @@
+package com.wushengde.dbutils;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.commons.dbutils.DbUtils;
+import org.apache.commons.dbutils.QueryRunner;
+import org.apache.commons.dbutils.ResultSetHandler;
+import org.junit.Test;
+
+import com.mchange.v2.c3p0.ComboPooledDataSource;
+import com.wushengde.domain.Account;
+
+public class DbUtilsQuery {
+	
+	/*
+	 *DbUtils方式实现查询  
+	 */
+	
+	public void find2() throws SQLException{
+		List<Account> list=new ArrayList<Account>();
+		QueryRunner runner=new QueryRunner(new ComboPooledDataSource());
+		runner.query("select * from account where money>?", new ResultSetHandler<List<Account>>(){
+
+			public List<Account> handle(ResultSet rs) throws SQLException {
+				while(rs.next()){
+					Account account=new Account();
+					account.setId(rs.getInt("id"));
+					account.setName(rs.getString("name"));
+					account.setMoney(rs.getDouble("money"));
+					list.add(account);
+				}
+				
+				return null;
+			}
+
+
+			
+		}, 500);
+	}
+	
+	/*
+	 * 古老方式实现查询功能
+	 * 发现：sql/sql中的参数/结果集的处理：这三个都不一样
+	 */
+	@Test
+	public void find1(){
+		Connection conn=null;
+		PreparedStatement ps=null;
+		ResultSet rs=null;
+		ComboPooledDataSource source=new ComboPooledDataSource();
+		List<Account> list=new ArrayList<Account>();
+		try{
+			conn=source.getConnection();
+			ps=conn.prepareStatement("select * from account where money>?");
+			ps.setDouble(1, 300);
+			rs=ps.executeQuery();
+			while(rs.next()){
+				Account account=new Account();
+				account.setId(rs.getInt("id"));
+				account.setName(rs.getString("name"));
+				account.setMoney(rs.getDouble("money"));
+				list.add(account);
+			}
+			System.out.println(list);
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			DbUtils.closeQuietly(conn,ps,rs);
+		}
+	}
+
+}
+

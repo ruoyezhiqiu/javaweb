@@ -1,0 +1,24 @@
+package com.wushengde.dbutils;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import javax.sql.DataSource;
+
+public class MyQueryRunner {
+	private DataSource source = null;
+
+	public MyQueryRunner() {
+	}
+
+	public MyQueryRunner(DataSource source) {
+		this.source = source;
+	}
+	public int update(String sql, Object... params) throws SQLException {
+		Connection conn=null;
+		PreparedStatement ps=null;
+		
+		return 0;
+	}
+}

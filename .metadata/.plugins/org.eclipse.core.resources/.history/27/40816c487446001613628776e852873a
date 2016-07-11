@@ -1,0 +1,6 @@
+package com.wushengde.dbutils;
+
+public class RSHandlerDemo {
+	// ArrayHandler 把结果集中的第一行数据转成对象数组
+	
+}

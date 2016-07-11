@@ -1,7 +1,0 @@
-package com.wushengde.batch;
-
-public class PSBatch {
-	public static void main(String[] args) {
-		
-	}
-}

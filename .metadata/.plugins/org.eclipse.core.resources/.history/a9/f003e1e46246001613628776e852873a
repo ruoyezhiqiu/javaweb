@@ -1,0 +1,27 @@
+package com.wushengde.dbutils;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import com.mchange.v2.c3p0.ComboPooledDataSource;
+
+public class DbUtilsQuery {
+	/*
+	 * 古老方式实现查询功能
+	 */
+	public void find1(){
+		Connection conn=null;
+		PreparedStatement ps=null;
+		ResultSet rs=null;
+		ComboPooledDataSource source=new ComboPooledDataSource();
+		try{
+			
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			DbUtils.closeQuietly(conn,ps,rs);
+		}
+	}
+}
+

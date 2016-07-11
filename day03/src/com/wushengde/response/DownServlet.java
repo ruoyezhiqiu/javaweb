@@ -31,9 +31,7 @@ public class DownServlet extends HttpServlet {
 
 		// 实现下载功能，其中可以下载图片视频等等文件。
 		response.setHeader("Content-Disposition", "attachment;filename="+URLEncoder.encode("美女.jpg","utf-8"));
-
-		InputStream in = new FileInputStream(this.getServletContext()
-				.getRealPath("images/a.jpg"));
+		InputStream in = new FileInputStream(this.getServletContext().getRealPath("images/a.jpg"));
 		OutputStream out = response.getOutputStream();
 
 		byte[] bs = new byte[1024];
@@ -50,7 +48,7 @@ public class DownServlet extends HttpServlet {
 
 	}
 	public static void main(String[] args) {
-		//测试URL编解码过程：
+		//测试URL编码解码过程：
 		String str = "中国";
 		try {
 			String str2 = URLEncoder.encode(str,"utf-8");
