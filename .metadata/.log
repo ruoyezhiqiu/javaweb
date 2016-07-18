@@ -7623,3 +7623,712 @@ org.eclipse.core.runtime.CoreException: No property tester contributes a propert
 
 !ENTRY org.eclipse.wst.internet.cache 1 0 2016-07-11 08:51:37.121
 !MESSAGE wtp.autotest.noninteractive is set. Licenses dialogs will not be displayed.
+!SESSION 2016-07-16 17:01:41.188 -----------------------------------------------
+eclipse.buildId=M20080221-1800
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.update.configurator 2016-07-16 17:02:51.513
+!MESSAGE Could not install bundle ../myeclipse/eclipse/plugins/com.ibm.icu_3.6.1.v20070906.jar   Bundle "com.ibm.icu" version "3.6.1.v20070906" has already been installed from: update@plugins/com.ibm.icu_3.6.1.v20070906.jar
+
+!ENTRY org.eclipse.update.configurator 2016-07-16 17:02:51.529
+!MESSAGE Could not install bundle ../myeclipse/eclipse/plugins/javax.servlet.jsp_2.0.0.v200706191603.jar   Bundle "javax.servlet.jsp" version "2.0.0.v200706191603" has already been installed from: update@plugins/javax.servlet.jsp_2.0.0.v200706191603.jar
+
+!ENTRY org.eclipse.update.configurator 2016-07-16 17:02:51.529
+!MESSAGE Could not install bundle ../myeclipse/eclipse/plugins/javax.servlet_2.4.0.v200706111738.jar   Bundle "javax.servlet" version "2.4.0.v200706111738" has already been installed from: update@plugins/javax.servlet_2.4.0.v200706111738.jar
+
+!ENTRY org.eclipse.update.configurator 2016-07-16 17:02:51.560
+!MESSAGE Could not install bundle ../myeclipse/eclipse/plugins/org.apache.commons.el_1.0.0.v200706111724.jar   Bundle "org.apache.commons.el" version "1.0.0.v200706111724" has already been installed from: update@plugins/org.apache.commons.el_1.0.0.v200706111724.jar
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-07-16 17:03:07.483
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:19.077
+!MESSAGE NLS missing message: AddJSTLLibsWizardPage_label_1_0 in: com.genuitec.eclipse.j2eedt.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:19.077
+!MESSAGE NLS missing message: AddJSTLLibsWizardPage_label_1_1 in: com.genuitec.eclipse.j2eedt.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:19.077
+!MESSAGE NLS missing message: AddJSTLLibsWizardPage_label_error in: com.genuitec.eclipse.j2eedt.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: action.moduleProjectWizardAction in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: artifactComponent.artifact in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: artifactComponent.artifactId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: artifactComponent.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: artifactComponent.groupId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: artifactComponent.name in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: artifactComponent.package in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: artifactComponent.packaging in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: artifactComponent.version in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: directoriesComponent.projectLayout in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.browseFs in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.browseVariables in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.browseWorkspace in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.choosePomDir in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.errorPomMissing in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.errorSelectPom in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.goals in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.goalsDialog.lifecyclePhases in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.goalsDialog.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.goalsLabel in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.mainTabName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.pomDirectoryDoesntExist in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.pomDirectoryEmpty in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.pomGroup in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.profilesLabel in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.propAddButton in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.propAddDialogTitle in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.propEditDialogTitle in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.propName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.propRemoveButton in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.propValue in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.propertyDialog.browseVariables in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.propertyDialog.name in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: launch.propertyDialog.value in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: locationComponent.atExternal in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: locationComponent.browse in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: locationComponent.directory in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: locationComponent.inWorkspace in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: locationComponent.location in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: locationComponent.selectLocation in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: plugin.markerArtifactResolutionError in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: plugin.markerBuildError in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: plugin.markerParsingError in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: preferences.checksumPolicyFail in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: preferences.checksumPolicyIgnore in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: preferences.checksumPolicyWarn in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: preferences.debugOutput in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: preferences.downloadSources in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.328
+!MESSAGE NLS unused message: preferences.downloadJavadoc in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: preferences.globalChecksumPolicy in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: preferences.globalSettingsFile in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: preferences.goalOnImport in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: preferences.goalOnUpdate in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: preferences.localRepository in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: preferences.offline in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: preferences.refreshButton in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: preferences.reindexButton in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: preferences.userSettingsFile in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: projectSelectionDialog.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: resolverConfiguration.advanced in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: resolverConfiguration.enableResourceFiltering in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: resolverConfiguration.profiles in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: resolverConfiguration.projectsForModules in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: resolverConfiguration.resolveWorkspaceProjects in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: resolverConfiguration.template in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: resolverConfiguration.templateDescription in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: resolverConfiguration.useMavenOutputFolders in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.import.page.browse in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.import.page.deselectAll in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.import.page.projects in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.import.page.refresh in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.import.page.root in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.import.page.scanningErrors in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.import.page.selectAll in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.import.page.selectRootFolder in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.import.validator.projectExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.import.validator.workspaceFolder in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.module.page.archetype.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.module.page.artifact.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.module.page.parameters.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.module.page.parent.browse in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.module.page.parent.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.module.page.parent.moduleName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.module.page.parent.parentProject in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.module.page.parent.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.module.page.parent.validator.moduleName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.module.page.parent.validator.nameExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.module.page.parent.validator.parentProject in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.module.page.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.module.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.error.pomAlreadyExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.error.pomExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.job.creating in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.job.creatingProject in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.job.failed in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.page.archetype.archetypes in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.page.archetype.column.artifactId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.page.archetype.column.groupId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.page.archetype.column.version in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.page.archetype.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.page.archetype.details in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.page.archetype.details.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.page.archetype.details.repository in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.page.archetype.retrievingArchetypes in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.page.archetype.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.artifactId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.browse in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.clear in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.groupId in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.page.artifact.parent.version in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.page.dependencies.add in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.344
+!MESSAGE NLS unused message: wizard.project.page.dependencies.dependencies in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.page.dependencies.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.page.dependencies.remove in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.page.dependencies.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.page.maven2.archetype.parameters.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.page.maven2.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.page.maven2.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.artifactID in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.groupID in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.packaging in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.parent in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.requiredProperty in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.page.maven2.validator.version in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.page.project.description in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.page.project.projectName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.page.project.simpleProject in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.page.project.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.page.project.validator.invalidLocation in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.page.project.validator.projectExists in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.page.project.validator.projectLocation in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.page.project.validator.projectName in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:03:39.359
+!MESSAGE NLS unused message: wizard.project.title in: org.maven.ide.eclipse.messages
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2016-07-16 17:03:50.235
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes
+
+!ENTRY org.eclipse.wst.internet.cache 1 0 2016-07-16 17:03:57.376
+!MESSAGE wtp.autotest.noninteractive is set. Licenses dialogs will not be displayed.
+!SESSION 2016-07-16 17:14:36.390 -----------------------------------------------
+eclipse.buildId=M20080221-1800
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.eclipse.update.configurator 2016-07-16 17:14:45.045
+!MESSAGE Could not install bundle ../myeclipse/eclipse/plugins/com.ibm.icu_3.6.1.v20070906.jar   Bundle "com.ibm.icu" version "3.6.1.v20070906" has already been installed from: update@plugins/com.ibm.icu_3.6.1.v20070906.jar
+
+!ENTRY org.eclipse.update.configurator 2016-07-16 17:14:45.055
+!MESSAGE Could not install bundle ../myeclipse/eclipse/plugins/javax.servlet.jsp_2.0.0.v200706191603.jar   Bundle "javax.servlet.jsp" version "2.0.0.v200706191603" has already been installed from: update@plugins/javax.servlet.jsp_2.0.0.v200706191603.jar
+
+!ENTRY org.eclipse.update.configurator 2016-07-16 17:14:45.057
+!MESSAGE Could not install bundle ../myeclipse/eclipse/plugins/javax.servlet_2.4.0.v200706111738.jar   Bundle "javax.servlet" version "2.4.0.v200706111738" has already been installed from: update@plugins/javax.servlet_2.4.0.v200706111738.jar
+
+!ENTRY org.eclipse.update.configurator 2016-07-16 17:14:45.092
+!MESSAGE Could not install bundle ../myeclipse/eclipse/plugins/org.apache.commons.el_1.0.0.v200706111724.jar   Bundle "org.apache.commons.el" version "1.0.0.v200706111724" has already been installed from: update@plugins/org.apache.commons.el_1.0.0.v200706111724.jar
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:14:54.249
+!MESSAGE NLS missing message: AddJSTLLibsWizardPage_label_1_0 in: com.genuitec.eclipse.j2eedt.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:14:54.250
+!MESSAGE NLS missing message: AddJSTLLibsWizardPage_label_1_1 in: com.genuitec.eclipse.j2eedt.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-16 17:14:54.250
+!MESSAGE NLS missing message: AddJSTLLibsWizardPage_label_error in: com.genuitec.eclipse.j2eedt.core.messages
+!SESSION 2016-07-18 13:43:48.371 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-07-18 13:44:41.270
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 1 1 2016-07-18 13:44:43.264
+!MESSAGE Workbench migration started
+
+!ENTRY org.eclipse.ui 1 1 2016-07-18 13:44:46.648
+!MESSAGE Workbench migration finished
+
+!ENTRY org.eclipse.ui 2 2 2016-07-18 13:44:50.075
+!MESSAGE Perspective with name 'MyEclipse Java Enterprise' and id 'com.genuitec.myeclipse.perspective.myeclipseperspective' has been made into a local copy
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-07-18 13:44:54.637
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\john'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.net 4 0 2016-07-18 13:44:55.898
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error '²»ÄÜÏÂÔشúÀí·þÎñÆ÷×Զ¯ÅäÖ' #12167.
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-07-18 13:45:08.724
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: user
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:795)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete '/user/WebRoot/WEB-INF/classes/com'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:370)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1832)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: D:\code\2016\myeclipse\user\WebRoot\WEB-INF\classes\com\wushengde.
+java.nio.file.DirectoryNotEmptyException: D:\code\2016\myeclipse\user\WebRoot\WEB-INF\classes\com\wushengde
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:243)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:238)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:63)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:151)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:111)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1832)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete: D:\code\2016\myeclipse\user\WebRoot\WEB-INF\classes\com.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2016-07-18 13:45:08.765
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2016-07-18 13:45:08.765
+!MESSAGE Could not delete '/user/WebRoot/WEB-INF/classes/com'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:370)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1832)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: D:\code\2016\myeclipse\user\WebRoot\WEB-INF\classes\com\wushengde.
+java.nio.file.DirectoryNotEmptyException: D:\code\2016\myeclipse\user\WebRoot\WEB-INF\classes\com\wushengde
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:243)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:238)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:63)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:151)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:111)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1832)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete: D:\code\2016\myeclipse\user\WebRoot\WEB-INF\classes\com.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2016-07-18 13:45:08.766
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2016-07-18 13:45:08.766
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2016-07-18 13:45:08.767
+!MESSAGE Could not delete: D:\code\2016\myeclipse\user\WebRoot\WEB-INF\classes\com\wushengde.
+!STACK 0
+java.nio.file.DirectoryNotEmptyException: D:\code\2016\myeclipse\user\WebRoot\WEB-INF\classes\com\wushengde
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:243)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:238)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:136)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:63)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:151)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:111)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1832)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:782)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2016-07-18 13:45:08.767
+!MESSAGE Could not delete: D:\code\2016\myeclipse\user\WebRoot\WEB-INF\classes\com.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 10 2016-07-18 13:50:11.713
+!MESSAGE Updating the index from remote failed. ; version: 2.0.1.v20160605-1811
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:136)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:152)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:270)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:161)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:153)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:254)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.downloadDatabase(IO.java:171)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerProblemsHistory$UpdateIndexJob.run(ServerProblemsHistory.java:280)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

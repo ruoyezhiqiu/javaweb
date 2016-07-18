@@ -49,8 +49,8 @@
 		<item key="ShowStatusLine" value="true"/>
 		<section name="DialogBoundsSettings">
 			<item key="DIALOG_X_ORIGIN" value="-14"/>
-			<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
 			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
 			<item key="DIALOG_Y_ORIGIN" value="3"/>
 			<item key="DIALOG_WIDTH" value="600"/>
 		</section>
@@ -61,19 +61,19 @@
 	<section name="NewServletCreationWizardPage">
 		<item key="create_main" value="true"/>
 		<item key="create_doput" value="false"/>
-		<item key="create_dopost" value="true"/>
 		<item key="create_dodelete" value="false"/>
-		<item key="create_doget" value="true"/>
+		<item key="create_dopost" value="true"/>
 		<item key="create_servletinfo" value="false"/>
+		<item key="create_doget" value="true"/>
 		<item key="template" value="1] Default template for Servlet"/>
-		<item key="create_unimplemented" value="false"/>
 		<item key="create_doinitdestroy" value="false"/>
+		<item key="create_unimplemented" value="false"/>
 		<item key="create_constructor" value="false"/>
 	</section>
 	<section name="DialogBounds_SuperInterfaceSelectionDialog">
 		<item key="DIALOG_X_ORIGIN" value="104"/>
-		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
 		<item key="DIALOG_HEIGHT" value="346"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
 		<item key="DIALOG_Y_ORIGIN" value="106"/>
 		<item key="DIALOG_WIDTH" value="365"/>
 	</section>
@@ -90,20 +90,20 @@
 		<item key="layout" value="2"/>
 		<item key="group_libraries" value="true"/>
 	</section>
-	<section name="SourceActionDialog.constructors">
-		<item key="Comments" value="false"/>
-		<item key="FinalModifier" value="false"/>
-		<item key="VisibilityModifier" value="1"/>
-		<item key="SynchronizedModifier" value="false"/>
-	</section>
-	<section name="OptionalMessageDialog.hide.">
-		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
-	</section>
 	<section name="NewWebXmlLinkCreationWizardPage">
 		<item key="do_mapping" value="true"/>
 		<item key="display_name" value=""/>
 		<item key="description" value=""/>
 		<item key="filePath" value="/day10/WebRoot/WEB-INF"/>
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
+	</section>
+	<section name="SourceActionDialog.constructors">
+		<item key="Comments" value="false"/>
+		<item key="FinalModifier" value="false"/>
+		<item key="VisibilityModifier" value="1"/>
+		<item key="SynchronizedModifier" value="false"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>
