@@ -1,0 +1,9 @@
+package com.wushengde.object;
+
+public class Demo1 {
+	public static void main(String[] args) {
+		byte[] by={'a','b','c'};
+		String str=new String(by);
+		System.out.println(str);
+	}
+}

@@ -1,0 +1,8 @@
+package com.wushengde.mybatis.beans;
+
+public class PUser {
+	private String id;
+	private String name;
+	private String sex;
+
+}

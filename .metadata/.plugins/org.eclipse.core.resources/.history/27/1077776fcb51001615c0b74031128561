@@ -1,0 +1,5 @@
+package com.wushengde.mybatis_test.mapper;
+
+public interface UserMapper {
+	
+}

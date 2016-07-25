@@ -1,0 +1,11 @@
+package com.wushengde.mybatis_test.test;
+
+import org.junit.Test;
+
+public class MSTest {
+	
+	@Test
+	public void testAdd(){
+		
+	}
+}

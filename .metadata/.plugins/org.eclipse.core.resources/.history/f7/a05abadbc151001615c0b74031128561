@@ -1,0 +1,14 @@
+package com.wushengde.mybatis.test9;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import com.wushengde.mybatis.util.MybatisUtil;
+
+public class Test9 {
+	public static void main(String[] args) {
+		
+	}
+}

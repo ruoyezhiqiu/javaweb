@@ -15,10 +15,12 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="stat"/>
+		<item key="selection" value="User"/>
 		<item key="wrap" value="false"/>
 		<item key="casesensitive" value="false"/>
 		<list key="findhistory">
+			<item value="_User"/>
+			<item value="com.wushengde.mybatis.test1.User"/>
 			<item value="ps"/>
 			<item value="admin"/>
 			<item value="user"/>
@@ -26,6 +28,8 @@
 			<item value="nn"/>
 		</list>
 		<list key="replacehistory">
+			<item value="User"/>
+			<item value="_User"/>
 			<item value="stat"/>
 			<item value="message"/>
 			<item value="admin"/>

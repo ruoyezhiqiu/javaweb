@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<!-- 
+	namespace:必须与对应的接口全类名一致
+	id:必须与对应接口的某个对应的方法名一致
+ -->
+<mapper namespace="com.wushengde.sm_test.mapper.UserMapper"> 
+	<insert id="save" parameterType="User">
+		insert into s_user(user_name,user_birthday,user_salary) values(#{name},#{birthday},#{salary})
+	</insert>
+	
+	<update id="update">
+		update s_user set user_name=#{name},user_birthday=#{birthday},user_salary=#{salary} where user_id=#{id}
+	</update>
+	
+	<delete id="delete">
+		delete from s_user where user_id = #{id}
+	</delete>
+	
+	<select id="findById">
+	
+	</select>
+	
+	<select id="findAll">
+	
+	</select>
+</mapper>
+

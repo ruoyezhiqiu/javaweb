@@ -1,0 +1,21 @@
+package com.wushengde.mybatis_test.test;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import com.wushengde.mybatis_test.mapper.UserMapper;
+
+/*
+ * 测试Spring整合Mybatis后的效果
+ */
+@RunWith(SpringJUnit4ClassRunner.class) //使用Spring	的测试框架
+@ContextConfiguration("/beans.xml") //加载Spring的配置文件beans.xml
+public class MSTest {
+	private UserMapper userMapper;
+	@Test
+	public void testAdd(){
+		
+	}
+}

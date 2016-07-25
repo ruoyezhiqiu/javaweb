@@ -1,0 +1,2 @@
+dirver=com.mysql.jdbc.Driver
+<property name\="password" value\="123456" />

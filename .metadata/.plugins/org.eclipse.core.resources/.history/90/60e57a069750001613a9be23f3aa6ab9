@@ -1,0 +1,11 @@
+package com.wushengde.mybatis.test2;
+
+import org.junit.Test;
+
+public class TestMybatis2 {
+	
+	@Test
+	public void testAdd(){
+		
+	}
+}

@@ -1,0 +1,24 @@
+package com.wushengde.mybatis.test9;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import com.wushengde.mybatis.util.MybatisUtil;
+
+public class Test9 {
+	public static void main(String[] args) {
+		SqlSessionFactory factory=MybatisUtil.getFactory();
+		SqlSession session=factory.openSession();
+		String statement="com.wushengde.mybatis.test8.userMapper.getUserCount";
+		
+		Map<String, Integer> parameterMap= new HashMap<String, Integer>();
+		parameterMap.put("sex_id", 1);
+		parameterMap.put("user_count", -1);
+		session.selectOne(statement, parameterMap);
+		int i=parameterMap.get("user_count");
+		session.close();
+		System.out.println(i);
+	}
+}

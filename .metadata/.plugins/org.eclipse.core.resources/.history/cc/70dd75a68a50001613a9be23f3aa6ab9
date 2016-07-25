@@ -1,0 +1,17 @@
+package com.wushengde.mybatis.test2;
+
+import java.io.InputStream;
+
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.junit.Test;
+
+import com.wushengde.mybatis.util.MybatisUtil;
+
+public class TestMybatis {
+
+	@Test
+	public void testAdd(){
+		SqlSessionFactory factory=MybatisUtil.getFactory();
+	}
+}

@@ -1,0 +1,37 @@
+package com.wushengde.mybatis.test9;
+
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.junit.Test;
+
+import com.wushengde.mybatis.beans.CUser;
+import com.wushengde.mybatis.util.MybatisUtil;
+
+/**
+ * 测试缓存
+ * @author john
+ *
+ */
+public class Test9 {
+	//测试一级缓存,其缓存的作用域为：session
+	@Test
+	public void testCacheOne(){
+		SqlSessionFactory factory=MybatisUtil.getFactory();
+		SqlSession session=factory.openSession();
+		
+		String statement="com.wushengde.mybatis.test9.userMapper.getUser";
+		CUser user=session.selectOne(statement, 1);
+		System.out.println(user);
+		
+		user=session.selectOne(statement, 1);
+		System.out.println(user);
+		
+		//
+		session.clearCache();
+		
+		user=session.selectOne(statement, 1);
+		System.out.println(user);
+		
+		session.close();
+	}
+}

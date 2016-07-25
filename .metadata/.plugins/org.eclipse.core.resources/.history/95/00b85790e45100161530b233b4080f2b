@@ -1,0 +1,24 @@
+package com.wushengde.mybatis_test.test;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import com.wushengde.mybatis_test.mapper.UserMapper;
+
+@RunWith(SpringJUnit4ClassRunner.class) //使用Spring测试框架
+@ContextConfiguration("/beans.xml") //加载Spring的配置文件beans.xml
+
+public class SMTest {
+	
+	@Autowired
+	private UserMapper userMapper;
+	
+	@Test
+	public void testAdd(){
+		User user= new User(-1,"tom",new Date(),12345)
+		userMapper.save();
+	}
+}

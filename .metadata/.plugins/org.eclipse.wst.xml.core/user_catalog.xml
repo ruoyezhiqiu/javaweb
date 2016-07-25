@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+<public publicId="-//mybatis.org//DTD Mapper 3.0//EN" uri="file:///E:/MyBatis/尚硅谷MyBatis视频教程/尚硅谷_myBatis_课件&amp;jar包/lib/dtd/mybatis-3-mapper.dtd"/>
+<public publicId="-//mybatis.org//DTD Config 3.0//EN" uri="file:///E:/MyBatis/尚硅谷MyBatis视频教程/尚硅谷_myBatis_课件&amp;jar包/lib/dtd/mybatis-3-config.dtd"/>
+<public publicId="log4j.dtd" uri="file:///E:/MyBatis/尚硅谷MyBatis视频教程/尚硅谷_myBatis_课件&amp;jar包/lib/dtd/log4j.dtd"/>
+</catalog>

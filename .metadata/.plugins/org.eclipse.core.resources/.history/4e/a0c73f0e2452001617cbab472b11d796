@@ -1,0 +1,14 @@
+package com.wushengde.sm_test.test;
+
+import org.junit.Test;
+
+import com.wushengde.sm_test.mapper.UserMapper;
+
+public class SMTest {
+	
+	private UserMapper userMapper;
+	@Test
+	public void testAdd(){
+		
+	}
+}

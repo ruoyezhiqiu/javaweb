@@ -1,0 +1,15 @@
+package com.wushengde.mybatis.test9;
+
+import org.junit.Test;
+
+/**
+ * ≤‚ ‘ª∫¥Ê
+ * @author john
+ *
+ */
+public class Test9 {
+	@Test
+	public void testCacheOne(){
+		
+	}
+}

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="13" version="2.0">
+<workbench progressCount="52" version="2.0">
 <workbenchAdvisor/>
-<window height="478" maximized="true" minimized="true" width="1175" x="264" y="223">
+<window height="478" maximized="true" width="1175" x="-5" y="4">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.jdt.junit.ResultView"/>
 <orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
+<orientation position="512" view="org.eclipse.pde.runtime.LogView"/>
 <orientation position="512" view="org.maven.ide.eclipse.views.MavenIndexesView"/>
 <orientation position="512" view="org.eclipse.jdt.ui.TypeHierarchy"/>
 </fastViewData>
@@ -13,7 +14,7 @@
 </perspectiveBar>
 <coolbarLayout locked="0">
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="131" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="101" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.genuitec.eclipse.uml.actions" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="com.genuitec.eclipse.web20.actionset" itemType="typeToolBarContribution" x="38" y="22"/>
@@ -33,12 +34,13 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.genuitec.eclipse.springframework.springconfigeditor" itemType="typeToolBarContribution" x="115" y="22"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" itemType="typePlaceholder" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="115" y="22"/>
 <coolItem id="com.genuitec.eclipse.j2eedt.core.editor.tld" itemType="typePlaceholder" x="38" y="22"/>
 <coolItem id="com.genuitec.eclipse.webdesigner3.editors.html" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" itemType="typePlaceholder" x="38" y="22"/>
 <coolItem id="com.genuitec.eclipse.webdesigner3.editors.jsp" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
@@ -46,21 +48,42 @@
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1464656831220" focus="true" label="Workspace - MyEclipse Java Enterprise">
+<page aggregateWorkingSetId="Aggregate for window 1464656831220" focus="true" label="Workspace - Java">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
+<part id="1"/>
+<part id="0"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SMTest.java" partName="SMTest.java" path="D:/code/2016/myeclipse/spring_mybatis_test/src/com/wushengde/mybatis_test/test/SMTest.java" title="SMTest.java" tooltip="spring_mybatis_test/src/com/wushengde/mybatis_test/test/SMTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/spring_mybatis_test/src/com/wushengde/mybatis_test/test/SMTest.java"/>
+<editorState selectionHPixel="0" selectionLength="7" selectionOffset="650"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserMapper.java" partName="UserMapper.java" path="D:/code/2016/myeclipse/spring_mybatis_test/src/com/wushengde/mybatis_test/mapper/UserMapper.java" title="UserMapper.java" tooltip="spring_mybatis_test/src/com/wushengde/mybatis_test/mapper/UserMapper.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/spring_mybatis_test/src/com/wushengde/mybatis_test/mapper/UserMapper.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
+</editor>
+<editor id="com.genuitec.eclipse.springframework.springconfigeditor" name=" beans.xml" partName=" beans.xml" path="D:/code/2016/myeclipse/spring_mybatis_test/src/ beans.xml" title=" beans.xml" tooltip="spring_mybatis_test/src/ beans.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/spring_mybatis_test/src/ beans.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestMybatis.java" partName="TestMybatis.java" path="D:/code/2016/myeclipse/mybatis/src/com/wushengde/mybatis/test2/TestMybatis.java" title="TestMybatis.java" tooltip="mybatis/src/com/wushengde/mybatis/test2/TestMybatis.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mybatis/src/com/wushengde/mybatis/test2/TestMybatis.java"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="404"/>
+</editor>
 </editors>
 <views>
 <view id="com.genuitec.javascript.debug.ui.scriptView" partName="JavaScript Scripts Inspector"/>
 <view id="org.eclipse.debug.ui.ExpressionView" partName="Expressions">
 <viewState/>
 </view>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
 <view id="org.eclipse.debug.ui.VariableView" partName="Variables">
 <viewState/>
@@ -75,10 +98,8 @@
 <view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Hierarchy">
 <viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" isWindowWorkingSet="false" link_editors="0" mv_vertical_scroll="0" orientation="3" qualified_names="0" ratio="350" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName=""/>
 </view>
-<view id="com.genuitec.eclipse.ui.HTMLView" partName="Web Browser"/>
-<view id="org.eclipse.ui.views.ProgressView" partName="Progress"/>
 <view id="org.eclipse.jdt.junit.ResultView" partName="JUnit">
-<viewState failuresOnly="false" layout="1" orientation="2" ratio="500" scroll="false"/>
+<viewState failuresOnly="false" layout="1" orientation="2" ratio="195" scroll="false"/>
 </view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
@@ -86,11 +107,10 @@
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" isWindowWorkingSet="false" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
-<customFilters userDefinedPatternsEnabled="false">
-<xmlDefinedFilters>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
@@ -131,11 +151,8 @@
 <columnOrder columnOrderIndex="4"/>
 </viewState>
 </view>
-<view id="org.springframework.ide.eclipse.ui.navigator.springExplorer" partName="Spring Explorer">
-<viewState CommonNavigator.LINKING_ENABLED="0" org.springframework.ide.eclipse.ui.navigator.workingsets.showTopLevelWorkingSets="0"/>
-</view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
+<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.genuitec.myeclipse.perspective.MyEclipsePerspectiveFactory" id="com.genuitec.myeclipse.perspective.myeclipseperspective" label="MyEclipse Java Enterprise"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -185,9 +202,6 @@
 <alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
 <alwaysOnActionSet id="com.genuitec.eclipse.uml.actions"/>
 <alwaysOnActionSet id="com.genuitec.eclipse.web20.actionset"/>
-<alwaysOnActionSet id="com.genuitec.myeclipse.icefaces"/>
-<alwaysOnActionSet id="com.genuitec.myeclipse.actions.reporting"/>
-<alwaysOnActionSet id="org.eclipse.birt.integration.wtp.ui.actionset"/>
 <show_view_action id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
 <show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
 <show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
@@ -238,114 +252,77 @@
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
-<fastViews>
-<view id="org.eclipse.jdt.ui.TypeHierarchy" ratio="0.29970545"/>
+<fastViews>&#x0A;<view id="org.eclipse.jdt.ui.TypeHierarchy" ratio="0.29970545"/>
 <view id="org.eclipse.jdt.junit.ResultView" ratio="0.3642638"/>
 </fastViews>
-<fastViewBars>
-<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@79f5e0" orientation="256" selectedTabId="" style="0">
-<fastViews>
-<view id="org.eclipse.ui.views.ProgressView" ratio="0.3"/>
+<fastViewBars>&#x0A;<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@79f5e0" orientation="256" selectedTabId="" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.views.ProgressView" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
-<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@f53756" orientation="256" selectedTabId="org.eclipse.ui.views.ProblemView" style="0">
-<fastViews>
-<view id="org.eclipse.ui.views.ProblemView" ratio="0.29951692"/>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@f53756" orientation="256" selectedTabId="org.eclipse.ui.views.ProblemView" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.views.ProblemView" ratio="0.29951692"/>
 <view id="org.eclipse.ui.views.TaskList" ratio="0.3"/>
 <view id="com.genuitec.eclipse.ui.HTMLView" ratio="0.85"/>
 <view id="com.genuitec.eclipse.ast.deploy.core.serverview" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
-<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@145ceb1" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
-<fastViews>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.294686"/>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@145ceb1" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.console.ConsoleView" ratio="0.294686"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
-<layout>
-<mainWindow>
-<info folder="true" part="cvslocation">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="cvslocation">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@ad9f5d" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="cvslocation">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@ad9f5d" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="cvslocation">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.23321033" ratioLeft="316" ratioRight="1039" relationship="2" relative="cvslocation"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1b27882" ratio="0.8985646" ratioLeft="939" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
-<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
-<part id="0"/>
+<info part="org.eclipse.ui.editorss" ratio="0.17490774" ratioLeft="237" ratioRight="1118" relationship="2" relative="cvslocation"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1b27882" ratio="0.8985646" ratioLeft="939" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@18662b6" ratio="0.54916793" ratioLeft="363" ratioRight="298" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1b27882">
-<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
-<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
-<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@18662b6" ratio="0.54916793" ratioLeft="363" ratioRight="298" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1b27882">&#x0A;<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.search.ui.views.SearchView" ratio="0.5" ratioLeft="100" ratioRight="100" relationship="2" relative="org.eclipse.ui.internal.ViewStack@18662b6"/>
 <info part="org.eclipse.ui.views.BookmarkView" ratio="0.5" ratioLeft="100" ratioRight="100" relationship="2" relative="org.eclipse.ui.internal.ViewStack@18662b6"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@f53756" ratio="0.6537842" ratioLeft="406" ratioRight="215" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@f53756" ratio="0.6537842" ratioLeft="406" ratioRight="215" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="com.genuitec.eclipse.ui.HTMLView" label="LabelNotFound"/>
 <page content="com.genuitec.eclipse.ast.deploy.core.serverview" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@79f5e0" ratio="0.70873785" ratioLeft="438" ratioRight="180" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@79f5e0" ratio="0.70873785" ratioLeft="438" ratioRight="180" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1135975" ratio="0.6682848" ratioLeft="413" ratioRight="205" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1135975" ratio="0.6682848" ratioLeft="413" ratioRight="205" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@199a8d2" ratio="0.63106793" ratioLeft="390" ratioRight="228" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@199a8d2" ratio="0.63106793" ratioLeft="390" ratioRight="228" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@75c13a" ratio="0.8656958" ratioLeft="535" ratioRight="83" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@145ceb1" ratio="0.7487923" ratioLeft="465" ratioRight="156" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@75c13a" ratio="0.8656958" ratioLeft="535" ratioRight="83" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
-</folder>
-</info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@145ceb1" ratio="0.7487923" ratioLeft="465" ratioRight="156" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
-</folder>
-</info>
-<info folder="true" part="topleft" ratio="0.39939487" ratioLeft="264" ratioRight="397" relationship="4" relative="cvslocation">
-<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<info folder="true" part="topleft" ratio="0.39939487" ratioLeft="264" ratioRight="397" relationship="4" relative="cvslocation">&#x0A;<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
-<part id="0"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottomleft" ratio="0.54916793" ratioLeft="363" ratioRight="298" relationship="4" relative="topleft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="LabelNotFound"/>
+<info folder="true" part="bottomleft" ratio="0.54916793" ratioLeft="363" ratioRight="298" relationship="4" relative="topleft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="LabelNotFound"/>
 <page content="uky.article.imageviewer.views.ImageView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
 </folder>
@@ -526,16 +503,13 @@
 <alwaysOnActionSet id="com.genuitec.eclipse.maven.pro.actions"/>
 <alwaysOnActionSet id="com.genuitec.myeclipse.actions.jpatools"/>
 <alwaysOnActionSet id="com.genuitec.eclipse.portlet.portletactions"/>
-<alwaysOnActionSet id="com.genuitec.myeclipse.actions.reporting"/>
 <alwaysOnActionSet id="com.genuitec.myeclipse.actions.springtools"/>
 <alwaysOnActionSet id="com.genuitec.myeclipse.actions.strutstools"/>
 <alwaysOnActionSet id="com.genuitec.myeclipse.actions.tapestrytools"/>
 <alwaysOnActionSet id="com.genuitec.eclipse.ws.xfire.actions"/>
 <alwaysOnActionSet id="com.genuitec.myeclipse.actions.webservices"/>
-<alwaysOnActionSet id="com.genuitec.myeclipse.icefaces"/>
 <alwaysOnActionSet id="com.genuitec.myeclipse.about.actions"/>
 <alwaysOnActionSet id="com.genuitec.myeclipse.product.actions"/>
-<alwaysOnActionSet id="org.eclipse.birt.integration.wtp.ui.actionset"/>
 <alwaysOnActionSet id="org.eclipse.jst.servlet.ui.internal.actions.ConvertToWebModuleTypeActionSet"/>
 <alwaysOnActionSet id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.wst.ws.explorer.explorer"/>
@@ -554,6 +528,9 @@
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.icefaces"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.reporting"/>
+<alwaysOnActionSet id="org.eclipse.birt.integration.wtp.ui.actionset"/>
 <show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
 <show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
 <show_view_action id="org.eclipse.jdt.ui.SourceView"/>
@@ -604,33 +581,53 @@
 <perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.jdt.ui.TypeHierarchy"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="org.springframework.ide.eclipse.ui.navigator.springExplorer"/>
-<fastViewBars>&#x0A;<fastViewBar fastViewLocation="131072" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
+<view id="org.eclipse.jdt.junit.ResultView"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@94026e" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.18557476"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@142cb95" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.31239936"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.views.ProblemView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
 <view id="org.eclipse.jdt.ui.JavadocView" ratio="0.3"/>
 <view id="org.eclipse.jdt.ui.SourceView" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
-<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@1e9c65a" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29951692"/>
-</fastViews>
-</fastViewBar>
 </fastViewBars>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.jdt.junit.ResultView" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="Hierarchy"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="JUnit"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
-<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
+<part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.21460843" ratioLeft="285" ratioRight="1043" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.77616745" ratioLeft="482" ratioRight="139" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<info part="org.eclipse.ui.editorss" ratio="0.24397591" ratioLeft="324" ratioRight="1004" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.77616745" ratioLeft="482" ratioRight="139" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
@@ -639,19 +636,23 @@
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@94026e" ratio="0.85958254" ratioLeft="906" ratioRight="148" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@94026e" ratio="0.85958254" ratioLeft="906" ratioRight="148" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">&#x0A;<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
 </folder>
 </info>
 <info part="org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator" ratio="0.49892473" ratioLeft="232" ratioRight="233" relationship="4" relative="org.eclipse.ui.internal.ViewStack@94026e"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1cf1934" ratio="0.49892473" ratioLeft="232" ratioRight="233" relationship="4" relative="org.eclipse.ui.internal.ViewStack@94026e">&#x0A;<folder activePageID="org.springframework.ide.eclipse.ui.navigator.springExplorer" appearance="2" expanded="2">&#x0A;<page content="org.springframework.ide.eclipse.ui.navigator.springExplorer" label="Spring Explorer"/>
-<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">&#x0A;<part id="0"/>
-</presentation>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1cf1934" ratio="0.49892473" ratioLeft="232" ratioRight="233" relationship="4" relative="org.eclipse.ui.internal.ViewStack@94026e">
+<folder appearance="2" expanded="2">
+<page content="org.springframework.ide.eclipse.ui.navigator.springExplorer" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1e9c65a" ratio="0.7520129" ratioLeft="467" ratioRight="154" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@142cb95" ratio="0.32206118" ratioLeft="200" ratioRight="421" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
 </folder>
 </info>
@@ -660,12 +661,155 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/spring_mybatis_test/src/com/wushengde/mybatis_test/test/SMTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" path="/spring_mybatis_test/src/ beans.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/spring_mybatis_test/src/com/wushengde/mybatis_test/mapper/userMapper.xml"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=spring_mybatis_test/lib\/spring-test-4.0.0.M2.jar&lt;org.springframework.test.context.junit4(SpringJUnit4ClassRunner.class"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=spring_mybatis_test/lib\/spring-test-4.0.0.M2.jar&lt;org.springframework.test.context(ContextConfiguration.class"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=spring_mybatis_test/lib\/spring-test-4.0.0.M2.jar&lt;org.springframework.test.context(TestContextManager.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/mybatis/src/com/wushengde/mybatis/test2/TestMybatis.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/spring_mybatis_test/src/com/wushengde/mybatis_test/mapper/userMapper.xml"/>
+<editor factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" path="/mybatis/src/db.properties"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" path="/spring_mybatis_test/src/ beans.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" path="/spring_mybatis_test/src/ beans.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/spring_mybatis_test/src/com/wushengde/mybatis_test/mapper/userMapper.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/spring_mybatis_test/src/com/wushengde/mybatis_test/mapper/UserMapper.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/spring_mybatis_test/src/com/wushengde/mybatis_test/test/SMTest.java"/>
+</editors>
+<item historyLabel="userMapper.xml" index="2"/>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="567" y="6"/>
+</item>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="0" y="1"/>
+</item>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="472" y="0"/>
+</item>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="305" y="0"/>
+</item>
+<item historyLabel="SpringJUnit4ClassRunner.class" index="3">
+<position/>
+</item>
+<item historyLabel="userMapper.xml" index="2"/>
+<item historyLabel="SpringJUnit4ClassRunner.class" index="3">
+<position/>
+</item>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="306" y="0"/>
+</item>
+<item historyLabel="SpringJUnit4ClassRunner.class" index="3">
+<position/>
+</item>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="234" y="0"/>
+</item>
+<item historyLabel="ContextConfiguration.class" index="4">
+<position/>
+</item>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="234" y="0"/>
+</item>
+<item historyLabel="SpringJUnit4ClassRunner.class" index="3">
+<position/>
+</item>
+<item historyLabel="TestContextManager.class" index="5">
+<position/>
+</item>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="234" y="0"/>
+</item>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="737" y="0"/>
+</item>
+<item historyLabel=" beans.xml" index="1"/>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="737" y="0"/>
+</item>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="649" y="0"/>
+</item>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="650" y="7"/>
+</item>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="44" y="0"/>
+</item>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="8" y="31"/>
+</item>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="44" y="0"/>
+</item>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="650" y="7"/>
+</item>
+<item historyLabel=" beans.xml" index="1"/>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="746" y="0"/>
+</item>
+<item historyLabel=" beans.xml" index="1"/>
+<item historyLabel="SpringJUnit4ClassRunner.class" index="3">
+<position/>
+</item>
+<item historyLabel=" beans.xml" index="1"/>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="746" y="0"/>
+</item>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="650" y="7"/>
+</item>
+<item historyLabel="TestMybatis.java" index="6">
+<position/>
+</item>
+<item historyLabel="userMapper.xml" index="7"/>
+<item historyLabel="TestMybatis.java" index="6">
+<position info="not_deleted" x="404" y="0"/>
+</item>
+<item historyLabel="db.properties" index="8"/>
+<item historyLabel="TestMybatis.java" index="6">
+<position info="not_deleted" x="404" y="0"/>
+</item>
+<item historyLabel=" beans.xml" index="9"/>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="650" y="7"/>
+</item>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="514" y="0"/>
+</item>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="650" y="7"/>
+</item>
+<item historyLabel=" beans.xml" index="10"/>
+<item historyLabel="userMapper.xml" index="11"/>
+<item historyLabel="UserMapper.java" index="12">
+<position/>
+</item>
+<item historyLabel="userMapper.xml" index="11"/>
+<item historyLabel="UserMapper.java" index="12">
+<position/>
+</item>
+<item historyLabel=" beans.xml" index="10"/>
+<item historyLabel="SMTest.java" index="0">
+<position info="not_deleted" x="650" y="7"/>
+</item>
+<item historyLabel=" beans.xml" index="10"/>
+<item active="true" historyLabel="SMTest.java" index="13">
+<position info="not_deleted" x="650" y="7"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="bottom"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@94026e"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -673,57 +817,55 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@79f5e0"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@f53756"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@145ceb1"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@142cb95"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" name="web.xml" tooltip="ttt/WebRoot/WEB-INF/web.xml">
-<persistable path="/ttt/WebRoot/WEB-INF/web.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestMybatis.java" tooltip="mybatis/src/com/wushengde/mybatis/test2/TestMybatis.java">
+<persistable path="/mybatis/src/com/wushengde/mybatis/test2/TestMybatis.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" name="config.properties" tooltip="user/src/config.properties">
-<persistable path="/user/src/config.properties"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="TestContextManager.class" tooltip="org.springframework.test.context.TestContextManager">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=spring_mybatis_test/lib\/spring-test-4.0.0.M2.jar&lt;org.springframework.test.context(TestContextManager.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="c3p0-config.xml" tooltip="Cust/src/c3p0-config.xml">
-<persistable path="/Cust/src/c3p0-config.xml"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ContextConfiguration.class" tooltip="org.springframework.test.context.ContextConfiguration">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=spring_mybatis_test/lib\/spring-test-4.0.0.M2.jar&lt;org.springframework.test.context(ContextConfiguration.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="c3p0-config.xml" tooltip="day11/src/c3p0-config.xml">
-<persistable path="/day11/src/c3p0-config.xml"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="SpringJUnit4ClassRunner.class" tooltip="org.springframework.test.context.junit4.SpringJUnit4ClassRunner">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=spring_mybatis_test/lib\/spring-test-4.0.0.M2.jar&lt;org.springframework.test.context.junit4(SpringJUnit4ClassRunner.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" name="config.properties" tooltip="Cust/src/config.properties">
-<persistable path="/Cust/src/config.properties"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="userMapper.xml" tooltip="spring_mybatis_test/src/com/wushengde/mybatis_test/mapper/userMapper.xml">
+<persistable path="/spring_mybatis_test/src/com/wushengde/mybatis_test/mapper/userMapper.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DaoFactory.java" tooltip="user/src/com/wushengde/factory/DaoFactory.java">
-<persistable path="/user/src/com/wushengde/factory/DaoFactory.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" name="db.properties" tooltip="mybatis/src/db.properties">
+<persistable path="/mybatis/src/db.properties"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="NativeMethodAccessorImpl.class" tooltip="sun.reflect.NativeMethodAccessorImpl">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=day03/D:\/jdk1.6.0_02\/jre\/lib\/rt.jar&lt;sun.reflect(NativeMethodAccessorImpl.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" name=" beans.xml" tooltip="spring_mybatis_test/src/ beans.xml">
+<persistable path="/spring_mybatis_test/src/ beans.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RSHandlerDemo.java" tooltip="day11/src/com/wushengde/dbutils/RSHandlerDemo.java">
-<persistable path="/day11/src/com/wushengde/dbutils/RSHandlerDemo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserMapper.java" tooltip="spring_mybatis_test/src/com/wushengde/mybatis_test/mapper/UserMapper.java">
+<persistable path="/spring_mybatis_test/src/com/wushengde/mybatis_test/mapper/UserMapper.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DbUtilsQuery.java" tooltip="day11/src/com/wushengde/dbutils/DbUtilsQuery.java">
-<persistable path="/day11/src/com/wushengde/dbutils/DbUtilsQuery.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SMTest.java" tooltip="spring_mybatis_test/src/com/wushengde/mybatis_test/test/SMTest.java">
+<persistable path="/spring_mybatis_test/src/com/wushengde/mybatis_test/test/SMTest.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Account.java" tooltip="day11/src/com/wushengde/domain/Account.java">
-<persistable path="/day11/src/com/wushengde/domain/Account.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MSTest.java" tooltip="spring_mybatis_test/src/com/wushengde/mybatis_test/test/MSTest.java">
+<persistable path="/spring_mybatis_test/src/com/wushengde/mybatis_test/test/MSTest.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DbUtilsUpdate.java" tooltip="day11/src/com/wushengde/dbutils/DbUtilsUpdate.java">
-<persistable path="/day11/src/com/wushengde/dbutils/DbUtilsUpdate.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="mybatis-config.xml" tooltip="spring_mybatis_test/src/mybatis-config.xml">
+<persistable path="/spring_mybatis_test/src/mybatis-config.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyQueryRunner.java" tooltip="day11/src/com/wushengde/dbutils/MyQueryRunner.java">
-<persistable path="/day11/src/com/wushengde/dbutils/MyQueryRunner.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="DataSourceTransactionManager.class" tooltip="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=spring_mybatis_test/lib\/spring-jdbc-4.0.0.M2.jar&lt;org.springframework.jdbc.datasource(DataSourceTransactionManager.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RSMetaDataDemo.java" tooltip="day11/src/com/wushengde/metadata/RSMetaDataDemo.java">
-<persistable path="/day11/src/com/wushengde/metadata/RSMetaDataDemo.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="MapperScannerConfigurer.class" tooltip="org.mybatis.spring.mapper.MapperScannerConfigurer">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=spring_mybatis_test/lib\/mybatis-spring-1.2.1.jar&lt;org.mybatis.spring.mapper(MapperScannerConfigurer.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DownServlet.java" tooltip="day03/src/com/wushengde/response/DownServlet.java">
-<persistable path="/day03/src/com/wushengde/response/DownServlet.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="conf.xml" tooltip="mybatis/src/conf.xml">
+<persistable path="/mybatis/src/conf.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataBaseMetaDataDemo.java" tooltip="day11/src/com/wushengde/metadata/DataBaseMetaDataDemo.java">
-<persistable path="/day11/src/com/wushengde/metadata/DataBaseMetaDataDemo.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="SqlSessionFactoryBean.class" tooltip="org.mybatis.spring.SqlSessionFactoryBean">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=spring_mybatis_test/lib\/mybatis-spring-1.2.1.jar&lt;org.mybatis.spring(SqlSessionFactoryBean.class"/>
 </file>
 </mruList>
 </workbench>

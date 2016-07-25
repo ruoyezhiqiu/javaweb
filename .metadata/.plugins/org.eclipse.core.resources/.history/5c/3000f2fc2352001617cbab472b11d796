@@ -1,0 +1,12 @@
+package com.wushengde.sm_test.test;
+
+import org.junit.Test;
+
+public class SMTest {
+	
+	
+	@Test
+	public void testAdd(){
+		
+	}
+}

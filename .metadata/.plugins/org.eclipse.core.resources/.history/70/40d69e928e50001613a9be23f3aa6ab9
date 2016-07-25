@@ -1,0 +1,31 @@
+package com.wushengde.mybatis.test2;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.junit.Test;
+
+import com.wushengde.mybatis.test1.User;
+import com.wushengde.mybatis.util.MybatisUtil;
+
+public class TestMybatis {
+
+	@Test
+	public void testAdd(){
+		SqlSessionFactory factory=MybatisUtil.getFactory();
+		//默认是手动提交的方式
+		SqlSession session= factory.openSession();
+		
+		String statement="com.atguigu.mybatis_test.test2.userMapper.addUser";
+		int insert =session.insert(statement, new User(-1,"john",25));
+		//手动提交过程
+		session.commit();
+		System.out.println(insert);
+	}
+	@Test
+	public void testUpdate(){
+		SqlSessionFactory factory=MybatisUtil.getFactory();
+		SqlSession session=factory.openSession();
+		String statement="com.atguigu.mybatis_test.test2.userMapper.updateUser";
+		int update=session.update(statement, new User(4,"tom",25));
+		System.out.println(update);
+	}
+}

@@ -1,0 +1,5 @@
+package com.wushengde.mybatis_test.domain;
+
+public class User {
+	
+}

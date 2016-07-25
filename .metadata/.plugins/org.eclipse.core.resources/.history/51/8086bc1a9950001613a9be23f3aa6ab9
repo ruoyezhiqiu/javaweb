@@ -1,0 +1,22 @@
+package com.wushengde.mybatis.test2;
+
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.junit.Test;
+
+import com.wushengde.mybatis.test1.User;
+import com.wushengde.mybatis.util.MybatisUtil;
+
+public class TestMybatis2 {
+	
+	@Test
+	public void testAdd(){
+		SqlSessionFactory factory=MybatisUtil.getFactory();
+		SqlSession session=factory.openSession(true);
+		
+		UserMapper userMapper=session.getMapper(UserMapper.class);
+		int add =userMapper.addUser(new User(-1,"jack",20));
+		session.close();
+		System.out.println(add);
+	}
+}

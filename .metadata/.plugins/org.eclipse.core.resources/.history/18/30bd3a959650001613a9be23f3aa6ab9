@@ -1,0 +1,77 @@
+package com.wushengde.mybatis.test2;
+import java.util.List;
+
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.junit.Test;
+
+import com.wushengde.mybatis.test1.User;
+import com.wushengde.mybatis.util.MybatisUtil;
+
+public class TestMybatis {
+
+	/**
+	 * 添加一条记录
+	 */
+	@Test
+	public void testAdd(){
+		SqlSessionFactory factory=MybatisUtil.getFactory();
+		//默认是手动提交的方式
+		SqlSession session= factory.openSession();
+		String statement="com.atguigu.mybatis_test.test2.userMapper.addUser";
+		int insert =session.insert(statement, new User(-1,"john",25));
+		//手动提交过程
+		session.commit();
+		session.close();
+		System.out.println(insert);
+	}
+	/**
+	 * 更新一条记录
+	 */
+	@Test
+	public void testUpdate(){
+		SqlSessionFactory factory=MybatisUtil.getFactory();
+		SqlSession session=factory.openSession(true);
+		String statement="com.atguigu.mybatis_test.test2.userMapper.updateUser";
+		int update=session.update(statement, new User(4,"aaaa",25));
+		session.close();
+		System.out.println(update);
+	}
+	/**
+	 * 删除一条记录
+	 */
+	@Test
+	public void testDelete(){
+		SqlSessionFactory factory=MybatisUtil.getFactory();
+		SqlSession session=factory.openSession(true);
+		String statement="com.atguigu.mybatis_test.test2.userMapper.deleteUser";
+		int delete=session.delete(statement,6);
+		session.close();
+		System.out.println(delete);
+	}
+	/**
+	 *查询一条记录
+	 */
+	@Test
+	public void testSelect(){
+		SqlSessionFactory factory=MybatisUtil.getFactory();
+		SqlSession session=factory.openSession();
+		String statement="com.atguigu.mybatis_test.test2.userMapper.getUser";
+		User user=session.selectOne(statement, 4);
+		session.close();
+		System.out.println(user);
+	}
+	/**
+	 * 查询多条记录
+	 */
+	@Test
+	public void testSelectAllUser(){
+		SqlSessionFactory factory=MybatisUtil.getFactory();
+		SqlSession session=factory.openSession();
+		String statement="com.atguigu.mybatis_test.test2.userMapper.selectAllUsers";
+		List<User> list= session.selectList(statement);
+		session.close();
+		System.out.println(list);
+	}
+	
+}

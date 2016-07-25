@@ -1,0 +1,23 @@
+package com.wushengde.object;
+
+public class Demo1 {
+	public static void main(String[] args) {
+		byte[] by={'a','b','c'};
+		String str=new String(by);
+		System.out.println(str);
+		System.out.println(str.charAt(1));
+		System.out.println(str.hashCode());
+		byte[] bb=str.getBytes();
+		System.out.println(bb[0]);
+		System.out.println(str.isEmpty());
+		System.out.println(str.length());
+		str=str.replace('a', 'z');
+		System.out.println(str);
+		String mm=str.substring(2);
+		System.out.println(mm);
+		String str2="aa  bbb  cc dddedef dsf";
+		System.out.println(str2);
+		String str3=str2.trim();
+		System.out.println(str3);
+	}
+}

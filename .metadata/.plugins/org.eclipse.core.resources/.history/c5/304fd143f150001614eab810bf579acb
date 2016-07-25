@@ -1,0 +1,40 @@
+package com.wushengde.mybatis.beans;
+
+public class Oder {
+	private int id;
+	private String orderNo;
+	private float price;
+	public Oder() {
+		super();
+	}
+	public Oder(int id, String orderNo, float price) {
+		super();
+		this.id = id;
+		this.orderNo = orderNo;
+		this.price = price;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getOrderNo() {
+		return orderNo;
+	}
+	public void setOrderNo(String orderNo) {
+		this.orderNo = orderNo;
+	}
+	public float getPrice() {
+		return price;
+	}
+	public void setPrice(float price) {
+		this.price = price;
+	}
+	@Override
+	public String toString() {
+		return id+":"+orderNo+"£º"+price;
+	}
+	
+	
+}

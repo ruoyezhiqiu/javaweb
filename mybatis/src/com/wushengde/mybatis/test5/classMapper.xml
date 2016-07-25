@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.wushengde.mybatis.test5.classMapper"> 
+<!-- 
+	一对一查询
+	
+	根据班级id查询班级信息(带老师的信息)
+	1.联表查询：select * from class c, teacher t where c.teacher_id=t.t_id and  c.c_id=1
+	2.执行两次查询：
+	SELECT * FROM class WHERE c_id=1;
+	SELECT * FROM teacher WHERE t_id=1
+	
+ -->
+ 
+ <!-- 方式一：联表查询 -->
+ <select id="getClass" parameterType="int"  resultMap="getClassMap">
+ 	select * from class c, teacher t where c.teacher_id=t.t_id and  c.c_id=#{id}
+ </select>
+ <resultMap type="Classes" id="getClassMap">
+ 	<id property="id" column="c_id"/>
+ 	<result property="name" column="c_name"/>
+ 	<association property="teacher" javaType="Teacher">
+ 		<id property="id" column="t_id"/>
+ 		<result property="name" column="t_name"/>
+ 	</association>
+ </resultMap>
+ 
+ <!-- 方式二：执行两次查询 -->
+  <select id="getClass2" parameterType="int"  resultMap="getClass2Map">
+	SELECT * FROM class WHERE c_id=#{id};
+ </select>
+ 
+ <select id="getTeacher" parameterType="int" resultType="Teacher">
+ 	select t_id id,t_name name from teacher where t_id=#{id}
+ </select>
+  <resultMap type="Classes" id="getClass2Map">
+ 	<id property="id" column="c_id"/>
+ 	<result property="name" column="c_name"/>
+ 	<association property="teacher" column="teacher_id" select="getTeacher">
+ 	</association>
+ </resultMap>
+</mapper>
+

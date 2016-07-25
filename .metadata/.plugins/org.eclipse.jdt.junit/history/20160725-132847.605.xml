@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="SMTest" project="sm_test" tests="4" started="4" failures="0" errors="0" ignored="0">
+<testsuite name="com.wushengde.sm_test.test.SMTest">
+<testcase name="testAdd" classname="com.wushengde.sm_test.test.SMTest"/>
+<testcase name="testDelete" classname="com.wushengde.sm_test.test.SMTest"/>
+<testcase name="testUpdate" classname="com.wushengde.sm_test.test.SMTest"/>
+<testcase name="testFindById" classname="com.wushengde.sm_test.test.SMTest"/>
+</testsuite>
+</testrun>

@@ -1,0 +1,18 @@
+package com.wushengde.mybatis.test2;
+
+import java.util.List;
+
+import com.wushengde.mybatis.test1.User;
+
+public interface UserMapper {
+	
+	public void addUser(User user);
+	
+	public void deleteUser(int id);
+	
+	public void updateUser(User user);
+	
+	public User getUser(int id);
+	
+	public List<User> getAllUser();
+}

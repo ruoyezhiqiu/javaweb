@@ -1,0 +1,83 @@
+package com.wushengde.mybatis.test3;
+
+import java.util.List;
+
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.junit.Test;
+
+import com.wushengde.mybatis.test1.User;
+import com.wushengde.mybatis.util.MybatisUtil;
+/**
+ * 此类用于测试将sql语句写入注解实现增删查改
+ * @author john
+ *
+ */
+public class TestMybatis2 {
+	/**
+	 * 测试向数据库中添加一条数据
+	 */
+	@Test
+	public void testAdd(){
+		SqlSessionFactory factory=MybatisUtil.getFactory();
+		SqlSession session=factory.openSession(true);
+		
+		UserMapper userMapper=session.getMapper(UserMapper.class);
+		int add =userMapper.addUser(new User(-1,"jack",20));
+		session.close();
+		System.out.println(add);
+	}
+	/**
+	 * 测试从数据库中删除一条数据
+	 */
+	@Test
+	public void testDelete(){
+		SqlSessionFactory factory=MybatisUtil.getFactory();
+		SqlSession session=factory.openSession(true);
+		
+		UserMapper userMapper=session.getMapper(UserMapper.class);
+		int delete=userMapper.deleteUser(13);
+		session.close();
+		System.out.println(delete);
+	}
+	/**
+	 * 测试更新数据库中的一条数据(根据id修改数据)
+	 */
+	@Test
+	public void testUpdate(){
+		SqlSessionFactory factory=MybatisUtil.getFactory();
+		SqlSession session = factory.openSession(true);
+		
+		UserMapper userMapper=session.getMapper(UserMapper.class);
+		int update = userMapper.updateUser(new User(1,"tomcat",100));
+		session.close();
+		System.out.println(update);
+		System.out.println(UserMapper.class);
+	}
+	/**
+	 * 测试查询数据库单条数据
+	 */
+	@Test
+	public void testGet(){
+		SqlSessionFactory factory=MybatisUtil.getFactory();
+		SqlSession session=factory.openSession();
+		
+		UserMapper userMapper=session.getMapper(UserMapper.class);
+		User user=userMapper.getUser(1);
+		session.close();
+		System.out.println(user);
+	}
+	/**
+	 * 测试查询数据的所有数据，返回一个List
+	 */
+	@Test
+	public void testGetAll(){
+		SqlSessionFactory factory=MybatisUtil.getFactory();
+		SqlSession session= factory.openSession();
+		
+		UserMapper userMapper=session.getMapper(UserMapper.class);
+		List<User> list=userMapper.getAllUser();
+		session.close();
+		System.out.println(list);
+	}
+}

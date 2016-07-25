@@ -1,0 +1,5 @@
+package com.wushengde.mybatis.util;
+
+public class MybatisUtil {
+	
+}

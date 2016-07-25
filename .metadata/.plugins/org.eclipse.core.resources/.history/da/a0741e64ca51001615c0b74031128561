@@ -1,0 +1,9 @@
+package com.wushengde.mybatis_test.domain;
+
+public class User {
+	private int id;
+	private String name;
+	private Date birthday;
+	private double salary;
+
+}

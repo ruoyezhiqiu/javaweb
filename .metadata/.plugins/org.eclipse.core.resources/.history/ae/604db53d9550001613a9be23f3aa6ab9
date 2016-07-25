@@ -1,0 +1,14 @@
+package com.wushengde.mybatis.test2;
+
+import com.wushengde.mybatis.test1.User;
+
+public interface UserMapper {
+	
+	public void addUser(User user);
+	
+	public void deleteUser(int i);
+	
+	public void updateUser(User user);
+	
+	public void getUser(int id);
+}

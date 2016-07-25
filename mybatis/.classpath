@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/mybatis-3.1.1.jar" sourcepath="E:/MyBatis/尚硅谷MyBatis视频教程/尚硅谷_myBatis_课件&amp;jar包/lib/mybatis-3.1.1-bundle/mybatis-3.1.1/mybatis-3.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.0.8-bin.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.10.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

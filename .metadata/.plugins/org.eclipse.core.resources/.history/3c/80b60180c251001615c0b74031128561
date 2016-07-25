@@ -1,0 +1,19 @@
+package com.wushengde.mybatis.test9;
+
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.junit.Test;
+
+import com.wushengde.mybatis.util.MybatisUtil;
+
+/**
+ * ≤‚ ‘ª∫¥Ê
+ * @author john
+ *
+ */
+public class Test9 {
+	@Test
+	public void testCacheOne(){
+		SqlSessionFactory factory=MybatisUtil.getFactory();
+		
+	}
+}

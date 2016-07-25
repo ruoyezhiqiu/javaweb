@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+<typeInfo handle="=spring_mybatis_test/lib\/spring-jdbc-4.0.0.M2.jar&lt;org.springframework.jdbc.datasource(DriverManagerDataSource.class[DriverManagerDataSource" modifiers="33" timestamp="1469383509136"/>
+<typeInfo handle="=mybatis/lib\/mysql-connector-java-5.0.8-bin.jar&lt;com.mysql.jdbc(Driver.class[Driver" modifiers="33" timestamp="1469169039233"/>
+<typeInfo handle="=spring_mybatis_test/lib\/mybatis-spring-1.2.1.jar&lt;org.mybatis.spring(SqlSessionFactoryBean.class[SqlSessionFactoryBean" modifiers="33" timestamp="1469383481133"/>
+<typeInfo handle="=spring_mybatis_test/lib\/mybatis-spring-1.2.1.jar&lt;org.mybatis.spring.mapper(MapperScannerConfigurer.class[MapperScannerConfigurer" modifiers="33" timestamp="1469383481133"/>
+<typeInfo handle="=spring_mybatis_test/lib\/spring-jdbc-4.0.0.M2.jar&lt;org.springframework.jdbc.datasource(DataSourceTransactionManager.class[DataSourceTransactionManager" modifiers="33" timestamp="1469383509136"/>
+</typeInfoHistroy>

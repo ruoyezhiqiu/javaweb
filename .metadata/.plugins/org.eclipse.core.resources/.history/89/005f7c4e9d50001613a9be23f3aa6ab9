@@ -1,0 +1,38 @@
+package com.wushengde.mybatis.test3;
+
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.junit.Test;
+
+import com.wushengde.mybatis.test1.User;
+import com.wushengde.mybatis.util.MybatisUtil;
+/**
+ * 此类用于测试将sql语句写入注解实现增删查改
+ * @author john
+ *
+ */
+public class TestMybatis2 {
+	/**
+	 * 测试向数据库中添加一条数据
+	 */
+	@Test
+	public void testAdd(){
+		SqlSessionFactory factory=MybatisUtil.getFactory();
+		SqlSession session=factory.openSession(true);
+		
+		UserMapper userMapper=session.getMapper(UserMapper.class);
+		int add =userMapper.addUser(new User(-1,"jack",20));
+		session.close();
+		System.out.println(add);
+	}
+	@Test
+	public void testDelete(){
+		SqlSessionFactory factory=MybatisUtil.getFactory();
+		SqlSession session=factory.openSession(true);
+		
+		UserMapper userMapper=session.getMapper(UserMapper.class);
+		int delete=userMapper.deleteUser(13);
+		session.close();
+		System.out.println(delete);
+	}
+}
